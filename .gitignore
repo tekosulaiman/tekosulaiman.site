@@ -1,0 +1,14 @@
+# Pelican build output
+output/
+cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_mudules/
