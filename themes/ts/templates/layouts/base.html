@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+  <head>
+    {% include "partials/head.html" %}
+  </head>
+  <body class="m-0">
+    {% include "partials/header.html" %}
+    <main class="flex-grow mt-2 mb-8 px-4 max-w-4xl mx-auto">
+      {% block content %}{% endblock %}
+    </main>
+    {% include "partials/footer.html" %}
+
+    <script src="{{ SITEURL }}/static/js/menu-toggle.js"></script>
+
+  </body>
+</html>

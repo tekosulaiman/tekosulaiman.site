@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /drafts/
+Disallow: /archives.html
+Disallow: /tags.html
+Disallow: /categories.html
+Disallow: /author/
+Disallow: /theme/
+Disallow: /static/
+Disallow: /404.html
+
+Sitemap: https://tekosulaiman.site/sitemap-index.xml
+Host: https://tekosulaiman.site

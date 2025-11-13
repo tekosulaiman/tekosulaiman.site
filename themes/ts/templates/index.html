@@ -1,0 +1,41 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+
+<section class="py-12 px-4 max-w-4xl mx-auto text-gray-800">
+  <div class="text-center mb-8 bg-yellow-50 rounded-xl border-2 border-black shadow-sm px-4 py-6">
+    <h1 class="text-4xl font-bold mb-4">Selamat Datang di tekosulaiman.site</h1>
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+      Situs ini adalah ruang eksplorasi dan showcase profesional saya tempat saya mendokumentasikan pendekatan teknis, eksperimen backend, dan strategi dokumentasi modular. Tujuannya sederhana: menunjukkan kapabilitas nyata dan membuka peluang kerja sama.
+    </p>
+    <a href="/about" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-white text-sm font-medium px-6 py-2 rounded-full transition no-underline">
+      👉 Tentang Saya
+    </a>
+  </div>
+
+  <div class="mb-8 max-w-2xl mx-auto">
+    <h2 class="text-2xl font-semibold text-gray-700 mb-2">Tujuan Situs</h2>
+    <ul class="list-disc list-inside text-gray-600 space-y-2">
+      <li>Mendokumentasikan eksperimen teknis seputar Linux, VM, dan backend demo</li>
+      <li>Menampilkan portofolio berbasis markdown dan layout manual</li>
+      <li>Menjadi sandbox untuk SEO, branding, dan struktur konten minimalis</li>
+      <li>Menunjukkan pendekatan eksplisit terhadap CSS, struktur folder, dan komponen Vue</li>
+    </ul>
+  </div>
+
+  <div class="max-w-2xl mx-auto">
+    <h2 class="text-2xl font-semibold text-gray-700 mb-2">Eksperimen Terbaru</h2>
+    <p class="text-gray-600 mb-4">
+      Saya percaya dokumentasi bukan sekadar catatan, tapi bukti proses berpikir. Beberapa eksperimen yang sedang saya jalankan:
+    </p>
+    <ul class="list-disc list-inside text-gray-600 space-y-2">
+      <li>Instalasi manual Rocky Linux di VM untuk backend demo</li>
+      <li>Migrasi CSS ke UnoCSS dengan pendekatan atomic-first</li>
+      <li>Struktur markdown untuk loop artikel berdasarkan kategori</li>
+      <li>Penggunaan Cloudflare Tunnel untuk akses publik ke server lokal</li>
+    </ul>
+  </div>
+</section>
+
+
+{% endblock %}

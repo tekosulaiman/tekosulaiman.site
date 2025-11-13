@@ -1,0 +1,24 @@
+{% extends "/layouts/base.html" %}
+{% block content %}
+
+<section class="py-12 px-4 max-w-4xl mx-auto text-gray-800">
+  <h1 class="text-3xl font-bold mb-4">Analysis</h1>
+  <p class="text-gray-600 mb-8 max-w-2xl">
+    Di bagian ini saya mendokumentasikan pendekatan analitis terhadap kebutuhan bisnis, proses pengambilan keputusan, dan teknik analisis gap. Artikel-artikel di bawah merupakan hasil observasi, breakdown sistem, dan pengalaman langsung dalam menerjemahkan kebutuhan menjadi solusi yang terstruktur.
+  </p>
+
+  <h2 class="text-xl font-semibold mb-4">Analysis - Articles</h2>
+  <div class="grid gap-6">
+    {% for article in articles if article.category == "Analysis" %}
+      <div class="border border-gray-400 border-solid bg-white rounded-lg p-4 hover:shadow-sm transition">
+        <a href="{{ SITEURL }}/{{ article.url }}" class="block text-lg font-semibold text-blue-700 hover:text-blue-800 no-underline mb-1">
+          {{ article.title }}
+        </a>
+        <p class="text-sm text-gray-500 mb-2">{{ article.date }}</p>
+        <p class="text-gray-600 text-sm">{{ article.summary }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

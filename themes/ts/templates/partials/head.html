@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+  {% if article %}
+    {{ article.title }} · {{ SITENAME }}
+  {% elif page %}
+    {{ page.title }} · {{ SITENAME }}
+  {% else %}
+    Professional Showcase {{ SITENAME }}
+  {% endif %}
+</title>
+
+<meta name="description" content="
+  {% if article %}
+    {{ article.summary|striptags }}
+  {% elif page %}
+    {{ page.summary|striptags if page.summary else SITESUBTITLE }}
+  {% else %}
+    Explore technical documentation, backend experiments, and modular strategies by Teko Sulaiman. {{ SITESUBTITLE }}
+  {% endif %}
+">
+
+<link rel="canonical" href="{% if article %}{{ SITEURL }}/{{ article.url }}{% elif page %}{{ SITEURL }}/{{ page.url }}{% endif %}">
+
+<!-- Open Graph -->
+<meta property="og:type" content="{% if article %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{% if article %}{{ article.title }}{% else %}{{ SITENAME }}{% endif %}">
+<meta property="og:description" content="{% if article %}{{ article.summary|striptags }}{% else %}{{ SITESUBTITLE }}{% endif %}">
+<meta property="og:url" content="{{ SITEURL }}{% if article %}/{{ article.url }}{% endif %}">
+<meta property="og:site_name" content="{{ SITENAME }}">
+
+<!-- CSS -->
+<link rel="stylesheet" href="{{ SITEURL }}/theme/css/unocss.css">

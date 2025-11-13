@@ -1,0 +1,12 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+  <article class="prose max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-4">{{ article.title }}</h1>
+    <p class="text-sm text-gray-500 mb-6">
+      {{ article.date.strftime('%d %B %Y') }} · {{ article.category }}
+    </p>
+    <div class="article-body">
+      {{ article.content }}
+    </div>
+  </article>
+{% endblock %}
