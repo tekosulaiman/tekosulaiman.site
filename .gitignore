@@ -11,4 +11,4 @@ __pycache__/
 Thumbs.db
 .vscode/
 .idea/
-node_mudules/
+node_modules/
