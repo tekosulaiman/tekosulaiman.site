@@ -21,7 +21,7 @@
   {% endif %}
 ">
 
-<link rel="canonical" href="{% if article %}{{ SITEURL }}/{{ article.url }}{% elif page %}{{ SITEURL }}/{{ page.url }}{% endif %}">
+<link rel="canonical" href="{% if article %}{{ SITEURL }}/{{ article.url }}{% elif page %}{{ SITEURL }}/{{ page.url }}{% else %}{{ SITEURL }}/{% endif %}">
 
 <!-- Open Graph -->
 <meta property="og:type" content="{% if article %}article{% else %}website{% endif %}">

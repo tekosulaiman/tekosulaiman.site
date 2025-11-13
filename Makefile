@@ -78,3 +78,16 @@ github: publish
 
 
 .PHONY: html help clean regenerate serve serve-global devserver devserver-global publish github
+
+deploy:
+	@echo "Generating UnoCSS..."
+	npx unocss "content/**/*.{html,md}" "themes/**/*.{html,jinja,md}" -o themes/ts/static/css/unocss.css
+	@echo "Building Pelican site..."
+	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
+	@echo "Injecting CNAME..."
+	echo "tekosulaiman.site" > $(OUTPUTDIR)/CNAME
+	@echo "Importing output into gh-pages branch..."
+	ghp-import -m "$(GITHUB_PAGES_COMMIT_MESSAGE)" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)" --no-jekyll
+	@echo "Pushing to origin/gh-pages..."
+	git push origin $(GITHUB_PAGES_BRANCH)
+	@echo "Deployment complete! Site live at https://tekosulaiman.site"
