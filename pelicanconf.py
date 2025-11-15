@@ -15,10 +15,12 @@ STATIC_PATHS = [
     'static',
     'images',
     'robots.txt',
-    'sitemap-index.xml',
-    'sitemap-page.xml',
-    'sitemap-post.xml',
 ]
+TEMPLATE_PAGES = {
+    'sitemap-post.xml': 'sitemap-post.xml',
+    'sitemap-page.xml': 'sitemap-page.xml',
+    'sitemap-index.xml': 'sitemap-index.xml',
+}
 THEME_STATIC_DIR = 'theme'
 THEME_STATIC_PATHS = ['static']
 
@@ -27,3 +29,6 @@ PAGE_SAVE_AS = '{slug}/index.html'
 
 PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['posts']
+
+ARTICLE_URL = '{slug}/'
+ARTICLE_SAVE_AS = '{slug}/index.html'
