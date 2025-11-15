@@ -15,6 +15,7 @@ STATIC_PATHS = [
     'static',
     'images',
     'robots.txt',
+    'favicon.ico',
 ]
 TEMPLATE_PAGES = {
     'sitemap-post.xml': 'sitemap-post.xml',
