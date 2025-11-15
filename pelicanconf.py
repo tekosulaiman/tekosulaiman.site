@@ -1,7 +1,6 @@
 AUTHOR = 'Teko Sulaiman'
 SITENAME = 'tekosulaiman.site'
-SITEURL = 'https://tekosulaiman.site'
-RELATIVE_URLS = False
+SITEURL = ''
 
 PATH = 'content'
 OUTPUT_PATH = 'output'
