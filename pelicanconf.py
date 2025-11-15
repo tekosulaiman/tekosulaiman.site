@@ -1,6 +1,7 @@
 AUTHOR = 'Teko Sulaiman'
 SITENAME = 'tekosulaiman.site'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'https://tekosulaiman.site'
+RELATIVE_URLS = False
 
 PATH = 'content'
 OUTPUT_PATH = 'output'
