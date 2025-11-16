@@ -27,6 +27,42 @@
     and in the way systems are structured. The articles below are personal exploration notes proof that coding remains part of my identity,
     even as my main career path has moved toward management.
   </p>
+
+  <div id="tunnel-status-wrapper" style="background:#f9f9f9;border:1px solid #ccc;padding:1em;border-radius:6px;margin-top:1em;">
+    <p style="margin:0 0 0.5em 0;font-weight:bold;">Live Portfolio Tunnel Status</p>
+    <p style="margin:0 0 1em 0;">
+      This link points to a live demo of my portfolio, served directly from my local development environment via Cloudflare Tunnel. 
+      When the indicator is <span style="color:green;font-weight:bold;">green</span>, the server is online and the link is active. 
+      If the indicator is <span style="color:red;font-weight:bold;">red</span>, the server is offline and the link is temporarily disabled.
+    </p>
+    <div id="tunnel-status">
+      <span id="status-indicator" style="display:inline-block;width:10px;height:10px;border-radius:50%;background:red;margin-right:8px;"></span>
+      <a id="tunnel-link" href="https://portfolio.tekosulaiman.site" target="_blank" style="pointer-events:none;color:gray;">Tunnel Offline</a>
+    </div>
+  </div>
+
+  <script>
+    fetch("https://portfolio.tekosulaiman.site", { method: "GET" })
+      .then(response => {
+        if (response.status === 502) {
+          // Host error → merah dan disable
+          throw new Error("Bad Gateway");
+        }
+        if (response.ok) {
+          document.getElementById("status-indicator").style.background = "green";
+          const link = document.getElementById("tunnel-link");
+          link.textContent = "portfolio.tekosulaiman.site";
+          link.style.pointerEvents = "auto";
+          link.style.color = "blue";
+        } else {
+          throw new Error("Other error");
+        }
+      })
+      .catch(() => {
+        // tetap merah dan disable
+      });
+    </script>
+
   <h2 class="text-xl font-semibold mb-4">Technical - Articles</h2>
   <div class="grid gap-6">
     {% for article in articles if article.category == "Technical" %}
