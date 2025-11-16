@@ -31,7 +31,7 @@
         <a href="{{ SITEURL }}/{{ article.url }}" class="block text-lg font-semibold text-blue-700 hover:text-blue-800 no-underline mb-1">
           {{ article.title }}
         </a>
-        <p class="text-sm text-gray-500 mb-2">{{ article.date }}</p>
+        <p class="text-sm text-gray-500 mb-2">{{ article.date.strftime('%Y-%m-%d') }}</p>
         <p class="text-gray-600 text-sm">{{ article.summary }}</p>
       </div>
     {% endfor %}
