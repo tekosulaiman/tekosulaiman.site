@@ -42,26 +42,35 @@
   </div>
 
   <script>
-    fetch("https://portfolio.tekosulaiman.site", { method: "GET" })
-      .then(response => {
-        if (response.status === 502) {
-          // Host error → merah dan disable
-          throw new Error("Bad Gateway");
-        }
-        if (response.ok) {
-          document.getElementById("status-indicator").style.background = "green";
-          const link = document.getElementById("tunnel-link");
-          link.textContent = "portfolio.tekosulaiman.site";
-          link.style.pointerEvents = "auto";
-          link.style.color = "blue";
-        } else {
-          throw new Error("Other error");
-        }
-      })
-      .catch(() => {
-        // tetap merah dan disable
-      });
-    </script>
+  async function checkTunnel() {
+    try {
+      const res = await fetch("https://api.tekosulaiman.site/status.json");
+      if (!res.ok) throw new Error("Bad response");
+      const data = await res.json();
+
+      if (data.status === "ok") {
+        document.getElementById("status-indicator").style.background = "green";
+        const link = document.getElementById("tunnel-link");
+        link.textContent = "portfolio.tekosulaiman.site";
+        link.style.pointerEvents = "auto";
+        link.style.color = "blue";
+      } else {
+        throw new Error("Status not ok");
+      }
+    } catch (e) {
+      document.getElementById("status-indicator").style.background = "red";
+      const link = document.getElementById("tunnel-link");
+      link.textContent = "Tunnel Offline";
+      link.style.pointerEvents = "none";
+      link.style.color = "gray";
+    }
+  }
+
+  // cek pertama kali
+  checkTunnel();
+  // polling tiap 10 detik
+  setInterval(checkTunnel, 10000);
+  </script>
 
   <h2 class="text-xl font-semibold mb-4">Technical - Articles</h2>
   <div class="grid gap-6">
