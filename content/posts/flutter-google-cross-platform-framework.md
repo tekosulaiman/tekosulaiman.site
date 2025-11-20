@@ -65,7 +65,7 @@ It uses **Dart** as its main programming language. Flutter has become popular be
 - **Education apps** → access to materials, quizzes, progress tracking.  
 
 ## 10. Conclusion
-Flutter is more than just a trend—it is a practical solution for modern development needs:  
+Flutter is more than just a trend it is a practical solution for modern development needs:  
 
 - **Cost and time efficiency** → one team, one codebase, multiple platforms.  
 - **Consistent UX** → stronger brand experience.  
