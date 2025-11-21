@@ -1,0 +1,71 @@
+{% extends "/layouts/base.html" %}
+{% block content %}
+<section class="py-12 px-4 max-w-4xl mx-auto text-gray-800">
+  <h1 class="text-3xl font-bold mb-8">Blog IT Insights</h1>
+
+  <!-- Security -->
+  <h2 class="text-2xl font-semibold mb-4">Security Documentation</h2>
+  <div class="grid gap-6 mb-8">
+    {% for article in articles if article.category|lower == "security" %}
+      {% if loop.index <= 3 %}
+      <div class="border border-gray-400 bg-white rounded-lg p-4 hover:shadow-sm transition">
+        <a href="{{ SITEURL }}/{{ article.url }}" class="block text-lg font-semibold text-blue-700 hover:text-blue-800 no-underline mb-1">
+          {{ article.title }}
+        </a>
+        <p class="text-sm text-gray-500 mb-2">{{ article.date.strftime('%Y-%m-%d') }}</p>
+        <p class="text-gray-600 text-sm">{{ article.summary }}</p>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- AI -->
+  <h2 class="text-2xl font-semibold mb-4">AI & Automation</h2>
+  <div class="grid gap-6 mb-8">
+    {% for article in articles if article.category|lower == "ai" %}
+      {% if loop.index <= 3 %}
+      <div class="border border-gray-400 bg-white rounded-lg p-4 hover:shadow-sm transition">
+        <a href="{{ SITEURL }}/{{ article.url }}" class="block text-lg font-semibold text-blue-700 hover:text-blue-800 no-underline mb-1">
+          {{ article.title }}
+        </a>
+        <p class="text-sm text-gray-500 mb-2">{{ article.date.strftime('%Y-%m-%d') }}</p>
+        <p class="text-gray-600 text-sm">{{ article.summary }}</p>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- Cloud -->
+  <h2 class="text-2xl font-semibold mb-4">Cloud & DevOps</h2>
+  <div class="grid gap-6 mb-8">
+    {% for article in articles if article.category|lower == "cloud" %}
+      {% if loop.index <= 3 %}
+      <div class="border border-gray-400 bg-white rounded-lg p-4 hover:shadow-sm transition">
+        <a href="{{ SITEURL }}/{{ article.url }}" class="block text-lg font-semibold text-blue-700 hover:text-blue-800 no-underline mb-1">
+          {{ article.title }}
+        </a>
+        <p class="text-sm text-gray-500 mb-2">{{ article.date.strftime('%Y-%m-%d') }}</p>
+        <p class="text-gray-600 text-sm">{{ article.summary }}</p>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- Data -->
+  <h2 class="text-2xl font-semibold mb-4">Data Analytics</h2>
+  <div class="grid gap-6 mb-8">
+    {% for article in articles if article.category|lower == "data" %}
+      {% if loop.index <= 3 %}
+      <div class="border border-gray-400 bg-white rounded-lg p-4 hover:shadow-sm transition">
+        <a href="{{ SITEURL }}/{{ article.url }}" class="block text-lg font-semibold text-blue-700 hover:text-blue-800 no-underline mb-1">
+          {{ article.title }}
+        </a>
+        <p class="text-sm text-gray-500 mb-2">{{ article.date.strftime('%Y-%m-%d') }}</p>
+        <p class="text-gray-600 text-sm">{{ article.summary }}</p>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</section>
+{% endblock %}

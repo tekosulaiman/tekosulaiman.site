@@ -8,6 +8,21 @@
       <a href="{{ SITEURL }}/contact/" class="no-underline text-white hover:text-gray-300">Contact</a>
       <a href="{{ SITEURL }}/disclaimer/" class="no-underline text-white hover:text-gray-300">Disclaimer</a>
       <a href="{{ SITEURL }}/privacy-policy/" class="no-underline text-white hover:text-gray-300">Privacy Policy</a>
+
+      <!-- Accordion: IT Insights -->
+      <div class="w-full">
+        <input type="checkbox" id="insights" class="hidden peer">
+        <label for="insights" class="flex flex-col items-start md:items-end gap-2 text-sm">
+          <span class="ml-auto peer-checked:hidden">Blog IT Insights + </span>
+        </label>
+        <div class="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-96 flex flex-col items-start md:items-end gap-1 mt-2">
+          <a href="{{ SITEURL }}/blogit/" class="text-white hover:text-gray-300 no-underline">Security Documentation</a>
+          <a href="{{ SITEURL }}/blogit/" class="text-white hover:text-gray-300 no-underline">AI & Automation</a>
+          <a href="{{ SITEURL }}/blogit/" class="text-white hover:text-gray-300 no-underline">Cloud & DevOps</a>
+          <a href="{{ SITEURL }}/blogit/" class="text-white hover:text-gray-300 no-underline">Data Analytics</a>
+        </div>
+      </div>
+  
     </div>
   </div>
 </footer>
