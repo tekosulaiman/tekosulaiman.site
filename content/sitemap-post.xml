@@ -4,7 +4,7 @@
   <url>
     <loc>{{ SITEURL }}/{{ article.url }}</loc>
     <lastmod>{{ article.date.isoformat() }}</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   {% endfor %}
