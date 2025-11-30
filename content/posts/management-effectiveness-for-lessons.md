@@ -1,9 +1,14 @@
+---
 Title: Management Effectiveness: Lessons from the Field
 Summary: Reflections on project management practices, challenges, and lessons learned from real-world experience.
 Date: 2025-11-16
 Category: Management
 Tags: management, leadership
 Author: Teko Sulaiman
+schema:
+  - breadcrumb
+  - article
+---
 
 In my journey as a Project Manager, one principle has always stood out: **a clear timeline from the start**. A timeline is not just a guess or an arbitrary number it is the result of thorough *Planning* and *Analysis*. The PADI principle (Planning, Analysis, Design, Implementation) ensures that projects are grounded in realistic expectations rather than guesswork.
 

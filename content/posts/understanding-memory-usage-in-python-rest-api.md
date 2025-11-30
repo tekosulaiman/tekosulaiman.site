@@ -1,9 +1,14 @@
+---
 Title: Understanding Memory Usage in Python REST API
 Summary: A practical look at Python’s memory footprint when running a REST API with FastAPI, including real runtime data and best practices for optimization.  
 Date: 2025-11-18  
 Category: Documentation  
 Tags: Python, FastAPI, REST API, Memory Management, Performance  
-Author: Teko Sulaiman  
+Author: Teko Sulaiman 
+schema:
+  - breadcrumb
+  - article
+--- 
 
 ## 1. Introduction
 Python is one of the most popular programming languages for web development, data science, and scripting. Frameworks like **Flask** and **FastAPI** are widely used to build REST APIs. However, Python’s memory usage characteristics differ from languages like Go or Java: it’s simpler to work with, but comes with relatively higher object overhead.

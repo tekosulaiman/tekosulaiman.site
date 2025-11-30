@@ -1,9 +1,14 @@
+---
 Title: Understanding Memory Usage in Spring Boot REST Applications  
 Summary: A practical look at JVM memory management in Spring Boot, with real metrics, pros and cons, and optimization strategies.  
 Date: 2025-11-20
 Category: Documentation  
 Tags: Java, Spring Boot, REST API, Memory Management, Performance  
 Author: Teko Sulaiman  
+schema:
+  - breadcrumb
+  - article
+---
 
 ## 1. Introduction
 Spring Boot is one of the most popular frameworks for building REST APIs in Java. However, many new developers are surprised when even a simple application consumes hundreds of megabytes of memory. This article explains how the JVM manages memory, what the Actuator metrics mean, and explores the advantages, drawbacks, and optimization strategies.

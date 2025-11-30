@@ -1,9 +1,14 @@
+---
 Title: Understanding Memory Usage in Ruby REST API
 Summary: A practical look at Ruby’s memory footprint when running a REST API with Sinatra, including real runtime data and best practices for optimization.  
 Date: 2025-11-17 
 Category: Documentation  
 Tags: Ruby, Sinatra, Puma, REST API, Memory Management, Performance  
-Author: Teko Sulaiman  
+Author: Teko Sulaiman 
+schema:
+  - breadcrumb
+  - article
+--- 
 
 ## 1. Introduction
 Ruby is a dynamic programming language known for its simple syntax and popular web frameworks such as **Rails** and **Sinatra**. For lightweight REST APIs, Sinatra is often chosen for its minimalism. However, the Ruby interpreter (MRI) comes with its own memory overhead, making it important to understand the footprint when an application first starts.

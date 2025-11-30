@@ -5,6 +5,9 @@ date: 2025-11-12
 category: Analysis
 tags: [PADI, SOP, IT governance, awareness, risk analysis]
 author: Teko Sulaiman
+schema:
+  - breadcrumb
+  - article
 ---
 
 ## 1. Misconceptions

@@ -1,9 +1,14 @@
+---
 Title: Running a Modular Web Project Locally: Portfolio Case Study  
 Summary: An initial experiment running a Pelican frontend and Python REST API backend in a modular local setup.  
 Date: 2025-11-06
 Category: Technical  
 Tags: portfolio, docker, modular, pelican, python  
 Author: Teko Sulaiman  
+schema:
+  - breadcrumb
+  - article
+---
 
 As part of building a modular technical portfolio that can be deployed across environments, I conducted an initial experiment by running two core components locally: a frontend and a backend. The goal was simple — to ensure smooth communication between services and validate that the project structure is ready for real-world scenarios, such as deployment to virtual machines or staging servers.
 

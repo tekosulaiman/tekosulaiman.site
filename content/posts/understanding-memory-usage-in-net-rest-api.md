@@ -1,9 +1,14 @@
+---
 Title: Understanding Memory Usage in .NET REST API  
 Summary: A practical look at how ASP.NET Core handles memory on startup, with real runtime data and best practices for monitoring and optimization.  
 Date: 2025-11-22  
 Category: Documentation  
 Tags: .NET, ASP.NET Core, REST API, Memory Management, Performance  
 Author: Teko Sulaiman  
+schema:
+  - breadcrumb
+  - article
+---
 
 ## 1. Introduction
 .NET (C#) is a modern platform widely used for enterprise applications and REST APIs. The **ASP.NET Core** framework offers high performance, strong database integration, and a rich ecosystem. However, similar to Java, the .NET runtime introduces some memory overhead when an application first starts. Understanding this footprint helps developers plan for efficiency and scalability.

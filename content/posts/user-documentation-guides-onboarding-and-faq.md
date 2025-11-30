@@ -1,9 +1,14 @@
+---
 Title: User Documentation: Guides, Onboarding, and FAQ
 Summary: Essential role of user documentation in ensuring usability, covering different types and creation approaches.
 Date: 2025-11-12
 Category: Documentation
 Tags: user documentation, guides, onboarding, FAQ, technical writing, usability
 Author: Teko Sulaiman
+schema:
+  - breadcrumb
+  - article
+---
 
 ## 1. Why User Documentation Matters
 

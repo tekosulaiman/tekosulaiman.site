@@ -5,6 +5,9 @@ Date: 2025-11-20
 Category: Technical
 Tags: flutter, dart, cross-platform, mobile, frontend
 Author: Teko Sulaiman
+schema:
+  - breadcrumb
+  - article
 ---
 
 ## 1. Introduction

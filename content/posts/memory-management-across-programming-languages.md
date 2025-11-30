@@ -1,9 +1,14 @@
+---
 Title: Memory Management Across Programming Languages  
 Summary: A comparative look at how different languages handle memory, with real startup data, logging vs monitoring practices, and optimization strategies.  
 Date: 2025-11-22  
 Category: Analysis  
 Tags: Memory Management, Java, Go, Python, Ruby, Node.js, .NET, REST API, Performance  
-Author: Teko Sulaiman  
+Author: Teko Sulaiman
+schema:
+  - breadcrumb
+  - article
+---  
 
 ## 1. Introduction
 Memory management is a critical aspect of software development. Each programming language takes a different approach: some rely on **garbage collectors**, others require manual allocation, and some are lightweight thanks to minimal runtimes.  

@@ -1,9 +1,14 @@
+---
 Title: Understanding Memory Usage in Node.js REST API
 Summary: A practical look at how Node.js and Express handle memory at startup, with real runtime data and best practices for monitoring.  
 Date: 2025-11-19 
 Category: Documentation  
 Tags: Node.js, Express, REST API, Memory Management, Performance  
 Author: Teko Sulaiman  
+schema:
+  - breadcrumb
+  - article
+---
 
 ## 1. Introduction
 Node.js is a JavaScript runtime built on the **V8 engine**, well-known for being lightweight and efficient for I/O-driven applications such as REST APIs. The **Express** framework is often chosen for its minimalism and flexibility. Just like with other languages, it’s important to understand the memory footprint when an application first starts.

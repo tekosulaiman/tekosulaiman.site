@@ -1,9 +1,14 @@
+---
 Title: Developer‑Mindset Layouting in WordPress with WooCommerce  
 Summary: Building custom layouts in WordPress through code, not drag‑and‑drop, and integrating WooCommerce.  
 Date: 2025-11-24
 Category: Technical  
 Tags: wordpress, woocommerce, php, theme-development  
 Author: Teko Sulaiman  
+schema:
+  - breadcrumb
+  - article
+---
 
 When working with WordPress, I prefer approaching layouting like a developer rather than relying on drag‑and‑drop tools.  
 This means building custom templates, structuring headers and footers with PHP, and integrating WooCommerce directly into the theme.  

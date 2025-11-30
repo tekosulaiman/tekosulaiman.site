@@ -1,9 +1,14 @@
+---
 Title: Why Documentation Matters in Application Development
 Summary: Exploring the importance of documentation, its audience, and practical approaches for API and frontend teams.
 Date: 2025-11-06
 Category: Documentation
 Tags: documentation, API, technical writing, Swagger, Postman
 Author: Teko Sulaiman
+schema:
+  - breadcrumb
+  - article
+---
 
 ## 1. Why Documentation Is Important
 

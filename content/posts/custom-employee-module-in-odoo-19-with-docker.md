@@ -1,9 +1,14 @@
+---
 Title: Custom Employee Module in Odoo 19 with Docker  
 Summary: Running Odoo 19 in Docker with PostgreSQL, coding locally, and adding a custom Employee menu.  
 Date: 2025-11-26 
 Category: Technical  
 Tags: odoo, docker, postgresql, erp, customization  
 Author: Teko Sulaiman  
+schema:
+  - breadcrumb
+  - article
+---
 
 Setting up Odoo 19 directly on Windows was tricky, so I switched to Docker for a cleaner workflow.  
 By running Odoo and PostgreSQL in containers, I kept coding locally while syncing updates through Docker Compose.  

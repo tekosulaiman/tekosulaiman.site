@@ -1,0 +1,18 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ article.title }}",
+  "description": "{{ article.summary|striptags }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ article.author }}"
+  },
+  "datePublished": "{{ article.date.isoformat() }}",
+  "dateModified": "{{ article.modified.isoformat() if article.modified else article.date.isoformat() }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ SITEURL }}/{{ article.url }}"
+  }
+}
+</script>

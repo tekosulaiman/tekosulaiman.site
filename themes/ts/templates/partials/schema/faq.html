@@ -1,0 +1,28 @@
+{% if article.content %}
+  {# split konten berdasarkan <details> #}
+  {% set faqs = article.content.split('<details') %}
+  {% if faqs|length > 1 %}
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {% for block in faqs %}
+      {% if '<summary>' in block %}
+        {% set question = block.split('</summary>')[0].replace('<summary>','')|striptags|trim %}
+        {% set answer = block.split('</summary>')[-1].split('</details>')[0]|striptags|trim %}
+        {
+          "@type":"Question",
+          "name":"{{ question }}",
+          "acceptedAnswer": {
+            "@type":"Answer",
+            "text":"{{ answer }}"
+          }
+        }{% if not loop.last %},{% endif %}
+      {% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+  {% endif %}
+{% endif %}

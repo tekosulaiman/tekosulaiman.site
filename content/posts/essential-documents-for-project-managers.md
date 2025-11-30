@@ -5,6 +5,9 @@ date: 2025-11-18
 category: Management
 tags: project management, documentation, portfolio, communication, business
 author: Teko Sulaiman
+schema:
+  - breadcrumb
+  - article
 ---
 
 ## Introduction

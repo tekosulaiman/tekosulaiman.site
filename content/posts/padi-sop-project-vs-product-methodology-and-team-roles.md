@@ -5,6 +5,9 @@ date: 2025-11-12
 category: Management
 tags: [PADI, SOP, IT governance, project management, product management]
 author: Teko Sulaiman
+schema:
+  - breadcrumb
+  - article
 ---
 
 ## PADI: A Deeper Understanding

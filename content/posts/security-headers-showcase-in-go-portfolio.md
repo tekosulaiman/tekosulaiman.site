@@ -1,9 +1,14 @@
+---
 Title: Security Headers Showcase in Go Portfolio
 Summary: Demonstrating security awareness through HTTP headers in a Go-based portfolio project.  
 Date: 2025-11-18
 Category: Technical  
 Tags: security, portfolio, http-headers, go, web-development  
 Author: Teko Sulaiman  
+schema:
+  - breadcrumb
+  - article
+---
 
 <img src="{static}/images/security-go.png" alt="Security Headers Showcase in Go Portfolio" style="max-width:80%; height:auto; display:block; margin:1em auto; border:1px solid #ccc;">
 

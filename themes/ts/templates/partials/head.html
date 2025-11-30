@@ -21,6 +21,26 @@
   {% endif %}
 ">
 
+{% if article is defined and article.schema %}
+  {% for s in article.schema %}
+    {% include "partials/schema/" ~ s ~ ".html" %}
+  {% endfor %}
+{% endif %}
+
+{% if page is defined and page.schema %}
+  {% for s in page.schema %}
+    {% include "partials/schema/" ~ s ~ ".html" %}
+  {% endfor %}
+{% endif %}
+
+{% if articles is defined and not page and not article %}
+  {% include "partials/schema/organization.html" %}
+{% endif %}
+
+{% if page is defined and page.slug == "about" %}
+  {% include "partials/schema/profilepage.html" %}
+{% endif %}
+
 <link rel="canonical" href="{% if article %}{{ SITEURL }}/{{ article.url }}{% elif page %}{{ SITEURL }}/{{ page.url }}{% else %}{{ SITEURL }}/{% endif %}">
 
 <!-- Open Graph -->

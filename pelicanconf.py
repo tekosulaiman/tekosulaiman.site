@@ -34,4 +34,6 @@ ARTICLE_PATHS = ['posts']
 ARTICLE_URL = '{slug}/'
 ARTICLE_SAVE_AS = '{slug}/index.html'
 
-PLUGINS = ["neighbors"]
+PLUGINS = ["neighbors", "yaml_metadata"]
+
+

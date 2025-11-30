@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ SITEURL }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ article.title }}",
+      "item": "{{ SITEURL }}/{{ article.url }}"
+    }
+  ]
+}
+</script>

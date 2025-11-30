@@ -1,9 +1,14 @@
+---
 Title: Understanding Memory Usage in Go REST API
 Summary: A practical look at Go’s lightweight memory footprint when running a REST API, with real runtime data and best practices for monitoring.  
 Date: 2025-11-21
 Category: Documentation  
 Tags: Go, Golang, REST API, Memory Management, Performance  
-Author: Teko Sulaiman  
+Author: Teko Sulaiman 
+schema:
+  - breadcrumb
+  - article
+--- 
 
 ## 1. Introduction
 Go (Golang) is a modern programming language known for being lightweight, fast, and efficient. It’s widely used to build REST APIs and microservices. One of the most interesting aspects of Go is its small memory footprint at startup—quite different from languages like Java or .NET, which typically show a much larger usage right away in the task manager.

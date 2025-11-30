@@ -1,9 +1,14 @@
+---
 Title: Choosing Between Web Applications, Websites, and Desktop Apps  
 Summary: A practical analyst perspective on when to build a web application, a web-based website, or a desktop application — who they serve and why.  
 Date: 2025-11-16  
 Category: Analysis  
 Tags: web application, website, desktop application, IT strategy, analyst  
 Author: Teko Sulaiman
+schema:
+  - breadcrumb
+  - article
+---
 
 In today IT landscape, one recurring question is: should we build a **web application**, a **web-based website**, or even a **desktop application**? The answer is never absolute. It depends on **purpose, audience, and context**. This article explores the differences, use cases, and decision-making framework from the perspective of a **thinker, decision maker, visioner, and technical practitioner**.
 
