@@ -3,7 +3,7 @@ title: Why Many IT Teams in Indonesia Lack Awareness of PADI
 summary: An analysis of low awareness of PADI as an SOP in Indonesian IT, its impacts, and recommendations.
 date: 2025-11-12
 category: Analysis
-tags: [PADI, SOP, IT governance, awareness, risk analysis]
+tags: [padi, sop, it-governance, awareness, risk analysis]
 author: Teko Sulaiman
 schema:
   - breadcrumb

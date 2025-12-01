@@ -3,7 +3,7 @@ title: Essential Documents for Project Managers
 summary: A practical portfolio guide on the key documents every Project Manager should prepare, based on real vendor–client experience.
 date: 2025-11-18
 category: Management
-tags: project management, documentation, portfolio, communication, business
+tags: [project-management, documentation, portfolio, communication, business]
 author: Teko Sulaiman
 schema:
   - breadcrumb

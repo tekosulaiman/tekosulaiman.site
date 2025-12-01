@@ -1,10 +1,10 @@
 ---
-Title: Management Effectiveness: Lessons from the Field
-Summary: Reflections on project management practices, challenges, and lessons learned from real-world experience.
-Date: 2025-11-16
-Category: Management
-Tags: management, leadership
-Author: Teko Sulaiman
+title: "Management Effectiveness: Lessons from the Field"
+summary: "Reflections on project management practices, challenges, and lessons learned from real-world experience."
+date: 2025-11-16
+category: Management
+tags: [management, leadership]
+author: Teko Sulaiman
 schema:
   - breadcrumb
   - article

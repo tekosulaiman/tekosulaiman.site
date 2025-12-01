@@ -1,9 +1,9 @@
 ---
-Title: Comparing Weather Data: API vs Web Scraping  
-Summary: Compare weather data collection methods: API vs web scraping. Find out which approach delivers the best results for your data-driven projects.  
-Date: 2025-11-25
-Category: Documentation  
-Tags: API, documentation
+title: "Comparing Weather Data API vs Web Scraping"  
+summary: "Compare weather data collection methods: API vs web scraping. Find out which approach delivers the best results for your data-driven projects."  
+date: 2025-11-25
+category: Documentation  
+tags: [api, documentation]
 schema:
   - breadcrumb
   - article

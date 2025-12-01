@@ -3,7 +3,7 @@ Title: Best Practices for Security Documentation Compliance
 Summary: Discover essential best practices for security documentation compliance to protect your organization and meet regulatory standards effectively.  
 Date: 2025-11-20 
 Category: security  
-Tags: Security, documentation  
+Tags: [security, documentation]  
 Author: Teko Sulaiman
 schema:
   - breadcrumb

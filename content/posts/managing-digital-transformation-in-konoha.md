@@ -3,7 +3,7 @@ Title: Managing Digital Transformation in Konoha
 Summary: Master the art of digital transformation in Konoha. Explore best practices and tools to lead your organization through successful digital change.
 Date: 2025-11-28 
 Category: Management  
-Tags: digital-transformation  
+Tags: [digital-transformation]
 Author: Teko Sulaiman
 schema:
   - breadcrumb

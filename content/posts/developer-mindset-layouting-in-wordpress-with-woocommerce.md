@@ -3,7 +3,7 @@ Title: Developer‑Mindset Layouting in WordPress with WooCommerce
 Summary: Building custom layouts in WordPress through code, not drag‑and‑drop, and integrating WooCommerce.  
 Date: 2025-11-24
 Category: Technical  
-Tags: wordpress, woocommerce, php, theme-development  
+Tags: [wordpress, woocommerce, php, theme-development] 
 Author: Teko Sulaiman  
 schema:
   - breadcrumb

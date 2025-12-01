@@ -1,10 +1,10 @@
 ---
-Title: API Documentation: Practical Approaches with Swagger, Postman, and Manual Writing  
-Summary: A detailed guide on why API documentation matters, and how to generate it with Swagger, Postman, or manual writing.  
-Date: 2025-11-18 
-Category: Documentation  
-Tags: API, documentation, Swagger, Postman, technical writing  
-Author: Teko Sulaiman
+title: "API Documentation Practical Approaches with Swagger, Postman, and Manual Writing"  
+summary: "A detailed guide on why API documentation matters, and how to generate it with Swagger, Postman, or manual writing."  
+date: 2025-11-18 
+category: Documentation  
+tags: [api, documentation, swagger, postman, technical-writing]
+author: Teko Sulaiman
 schema:
   - breadcrumb
   - article

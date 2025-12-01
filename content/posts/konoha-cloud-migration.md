@@ -1,14 +1,14 @@
 ---
-Title: Konoha Cloud Migration
-Summary: Unlock the power of Konoha Cloud Migration for your organization. Enjoy enhanced performance, security, and flexibility with our expert cloud services.
-Date: 2025-11-30 
-Category: Management  
-Tags: cloud-migration  
-Author: Teko Sulaiman
+title: "Konoha Cloud Migration"
+summary: "Unlock the power of Konoha Cloud Migration for your organization. Enjoy enhanced performance, security, and flexibility with our expert cloud services."
+date: 2025-11-30
+category: Management
+tags: [cloud-migration]
+author: Teko Sulaiman
 schema:
   - breadcrumb
   - article
----  
+---
 
 ## 📋 Simple Task Management Template
 

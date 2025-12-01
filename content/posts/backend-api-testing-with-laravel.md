@@ -1,9 +1,14 @@
-Title: Backend API Testing with Laravel  
-Summary: Exploring a simple backend workflow using Laravel to test API endpoints and document results.  
-Date: 2025-11-28  
-Category: Technical  
-Tags: laravel, api, backend, testing  
-Author: Teko Sulaiman  
+---
+Title: "Backend API Testing with Laravel"
+Summary: "Exploring a simple backend workflow using Laravel to test API endpoints and document results."
+Date: 2025-11-28
+Category: Technical
+Tags: [laravel, api, backend, testing]
+Author: Teko Sulaiman
+schema:
+  - breadcrumb
+  - article
+---
 
 Working with APIs is all about clarity and reproducibility.  
 In this project, I explored how Laravel can be used to quickly set up and test backend endpoints.  

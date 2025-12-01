@@ -3,7 +3,7 @@ Title: Deploying a Modular Portfolio via Cloudflare Tunnel
 Summary: A case study on connecting a Pelican frontend and Python REST API backend to the web using Cloudflare Tunnel.  
 Date: 2025-11-12
 Category: Technical  
-Tags: portfolio, cloudflare, tunnel, modular, python, pelican  
+Tags: [portfolio, cloudflare, tunnel, modular, python, pelican] 
 Author: Teko Sulaiman  
 schema:
   - breadcrumb

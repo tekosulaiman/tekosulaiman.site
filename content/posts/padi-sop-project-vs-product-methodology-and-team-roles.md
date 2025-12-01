@@ -1,5 +1,5 @@
 ---
-title: PADI SOP: Project vs Product, Methodology, and Team Roles
+title: PADI SOP Project vs Product, Methodology, and Team Roles
 summary: Understanding PADI as a Standard Operating Procedure in Indonesian IT projects and products.
 date: 2025-11-12
 category: Management

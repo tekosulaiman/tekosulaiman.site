@@ -3,7 +3,7 @@ Title: Understanding Memory Usage in Python REST API
 Summary: A practical look at Python’s memory footprint when running a REST API with FastAPI, including real runtime data and best practices for optimization.  
 Date: 2025-11-18  
 Category: Documentation  
-Tags: Python, FastAPI, REST API, Memory Management, Performance  
+Tags: [python, fastapi, rest-api, memory-management, performance]
 Author: Teko Sulaiman 
 schema:
   - breadcrumb

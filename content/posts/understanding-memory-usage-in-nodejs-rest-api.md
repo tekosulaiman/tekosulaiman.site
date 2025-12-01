@@ -3,7 +3,7 @@ Title: Understanding Memory Usage in Node.js REST API
 Summary: A practical look at how Node.js and Express handle memory at startup, with real runtime data and best practices for monitoring.  
 Date: 2025-11-19 
 Category: Documentation  
-Tags: Node.js, Express, REST API, Memory Management, Performance  
+Tags: [nodejs, express, rest-api, memory-management, performance]
 Author: Teko Sulaiman  
 schema:
   - breadcrumb

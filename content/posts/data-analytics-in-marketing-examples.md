@@ -3,7 +3,7 @@ Title: Data Analytics in Marketing Examples
 Summary: Discover powerful data analytics examples in marketing that drive results. Learn how to leverage insights for effective campaigns and improved ROI. 
 Date: 2025-11-24 
 Category: data  
-Tags: data-analytic
+Tags: [data-analytic]
 Author: Teko Sulaiman
 schema:
   - breadcrumb
