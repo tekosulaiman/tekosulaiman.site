@@ -1,7 +1,7 @@
 {% extends "layouts/base.html" %}
 {% block content %}
 <section class="py-12 px-4 max-w-4xl mx-auto text-gray-800">
-  <div class="text-center mb-8 bg-yellow-50 rounded-xl border-2 border-black shadow-sm px-4 py-6">
+  <div class="text-center mb-8 bg-yellow-50 rounded-xl border-4 border-solid border-black shadow-sm px-4 py-6">
     <h1 class="text-4xl font-bold mb-4">Welcome to tekosulaiman.site</h1>
     <p class="text-lg text-gray-600 max-w-2xl mx-auto">
       This site is my space for exploration and a <span class="font-semibold">professional showcase</span>. 
@@ -14,18 +14,31 @@
       👉 About Me
     </a>
   </div>
-  <div class="mb-8 max-w-2xl mx-auto">
-    <h2 class="text-2xl font-semibold text-gray-700 mb-2">Purpose of This Site</h2>
-    <ul class="list-disc list-inside text-gray-600 space-y-2">
-      <li>To document my experiences and growth in <strong>management, technical work, and leadership</strong>.</li>
-      <li>To present an authentic portfolio as proof of capability, not just theory.</li>
-      <li>To serve as a space for reflection and continuous learning, where processes can be understood and shared.</li>
-      <li>To build clear and minimal personal branding with well-structured content.</li>
-      <li>To represent me professionally so readers can assess my competence without endless tests or interviews.</li>
-      <li>To emphasize that I also learn and leverage <strong>AI</strong> to access information effectively — not out of laziness, but to stay updated and avoid falling behind.</li>
-    </ul>
+  <div class="mb-8 max-w-5xl mx-auto px-4">
+    <h2 class="text-2xl font-semibold text-gray-700 mb-6">Purpose of This Site</h2>
+    <!-- Grid responsif -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-gray-50 border border-solid border-gray-300 rounded-lg p-4 text-gray-700 shadow-sm">
+        To document my experiences and growth in <strong>management, technical work, and leadership</strong>.
+      </div>
+      <div class="bg-gray-50 border border-solid border-gray-300 rounded-lg p-4 text-gray-700 shadow-sm">
+        To present an authentic portfolio as proof of capability, not just theory.
+      </div>
+      <div class="bg-gray-50 border border-solid border-gray-300 rounded-lg p-4 text-gray-700 shadow-sm">
+        To serve as a space for reflection and continuous learning, where processes can be understood and shared.
+      </div>
+      <div class="bg-gray-50 border border-solid border-gray-300 rounded-lg p-4 text-gray-700 shadow-sm">
+        To build clear and minimal personal branding with well-structured content.
+      </div>
+      <div class="bg-gray-50 border border-solid border-gray-300 rounded-lg p-4 text-gray-700 shadow-sm">
+        To represent me professionally so readers can assess my competence without endless tests or interviews.
+      </div>
+      <div class="bg-gray-50 border border-solid border-gray-300 rounded-lg p-4 text-gray-700 shadow-sm">
+        To emphasize that I also learn and leverage <strong>AI</strong> to access information effectively — not out of laziness, but to stay updated and avoid falling behind.
+      </div>
+    </div>
   </div>
-  <div class="max-w-2xl mx-auto">
+  <div class="max-w-2xl pl-4 md:pl-0">
     <h2 class="text-2xl font-semibold text-gray-700 mb-2">Latest Experiments</h2>
     <p class="text-gray-600 mb-4">
       I believe documentation is more than just notes it is <span class="font-semibold">evidence of thought process and exploration</span>. 
