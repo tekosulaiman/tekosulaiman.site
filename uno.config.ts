@@ -1,11 +1,9 @@
-// uno.config.ts
 import { defineConfig, presetUno } from 'unocss'
 
 export default defineConfig({
   presets: [presetUno()],
   theme: {
     fontFamily: {
-      // nama custom class → stack font
       sans: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
     },
   },
@@ -18,15 +16,19 @@ export default defineConfig({
   },
   preflights: [
     {
-      getCSS: () => `table {
+      getCSS: () => `
+        html {
+          overflow-y: scroll;
+        }
+      
+        table {
           border-collapse: collapse;
-          display: block;              /* ubah jadi block element */
-          overflow-x: auto;            /* aktifkan scroll horizontal */
-          white-space: nowrap;         /* cegah isi kolom pecah ke bawah */
+          display: block;
+          overflow-x: auto;
+          white-space: nowrap;
           -webkit-overflow-scrolling: touch;
         }
 
-        /* Aturan untuk header dan cell */
         table th,
         table td {
           border: 1px solid #ccc;
