@@ -103,7 +103,9 @@ Flexera helps me gain clarity across complex environments, especially when hybri
 * optimization for hybrid and multi cloud
 * strong lifecycle management
 * deep cost reporting
-* simplified governance
+* simplified 
+
+> Exploring cloud efficiency? Read [Deploying a Modular Portfolio via Cloudflare Tunnel](https://tekosulaiman.site/deploying-a-modular-portfolio-via-cloudflare-tunnel/) for practical cloud‑native deployment strategies.
 
 ## **Harness**
 

@@ -20,6 +20,8 @@ This task management template is created purely as a **practice exercise** and p
 - Ensure zero downtime during transition  
 - Train staff on new platform  
 
+> Want the full transformation story? Read [Managing Digital Transformation in Konoha](https://tekosulaiman.site/managing-digital-transformation-in-konoha/) for a broader look at modernization efforts.
+
 ## 📌 Task Breakdown  
 
 | Task ID | Task Name              | Assigned To | Priority | Status       | Deadline   |

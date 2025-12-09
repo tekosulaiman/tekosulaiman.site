@@ -21,6 +21,8 @@ The result is a modular, reproducible workflow that highlights coding skills ins
 - Overrode WooCommerce templates to match the custom theme style.  
 - Documented the process clearly for portfolio presentation.  
 
+> Interested in more hands‑on development workflows? Check out [Custom Employee Module in Odoo 19 with Docker](https://tekosulaiman.site/custom-employee-module-in-odoo-19-with-docker/) for another practical build process.
+
 ## Example Hook Override
 ```php
 <?php

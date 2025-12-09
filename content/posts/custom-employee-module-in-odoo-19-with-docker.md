@@ -21,6 +21,8 @@ For database inspection, I connected the container to DBeaver, making it easy to
 - Created a simple custom Employee module.  
 - Activated the menu and confirmed it appeared in the Odoo dashboard.  
 
+> Interested in more hands‑on customization work? Check out [Developer Mindset: Layouting in WordPress with WooCommerce](https://tekosulaiman.site/developer-mindset-layouting-in-wordpress-with-woocommerce/) for another practical build‑focused walkthrough.
+
 ## Example Docker Compose
 ```yaml
 version: '3.1'

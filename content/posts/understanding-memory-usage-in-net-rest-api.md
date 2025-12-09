@@ -60,6 +60,8 @@ info: Microsoft.Hosting.Lifetime[0]
       Content root path: C:\Users\tekos\OneDrive\Documents\VSCodiumProjects\portofolio\dotnet\dotnet-rest
 ```
 
+> Comparing memory behavior across stacks? Check out [Understanding Memory Usage in Go REST API](https://tekosulaiman.site/understanding-memory-usage-in-go-rest-api/) for a contrasting perspective.
+
 ### 🔍 Interpretation
 - **WorkingSet64 (RSS)** → total memory used by the .NET process in the OS.  
 - Initial usage is around **43 MB**, which is lower than the typical 80–120 MB range.  

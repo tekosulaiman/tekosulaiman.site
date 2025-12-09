@@ -100,6 +100,8 @@ Using consistent templates and indexing standards simplifies tracking and retrie
 - Classification labels (confidential, internal, public)
 - Review and approval workflows
 
+> Need a more complete documentation workflow? Read [How to Create Comprehensive Security Documentation](https://tekosulaiman.site/how-to-create-comprehensive-security-documentation/) for a structured approach.
+
 ## Conducting Effective Risk Assessments and Documentation
 
 *Risk assessment documentation* forms the cornerstone of compliance efforts. I cannot overstate how important thorough risk assessments are they identify vulnerabilities, assess their potential impact, and guide your security investments.

@@ -21,6 +21,8 @@ The goal wasn’t to build a full application, but to create a clean workflow fo
 - Implemented a small middleware for logging requests and responses.  
 - Documented the workflow so it can be reused in future projects.  
 
+> Building reliable APIs? You might also like [API Documentation: Practical Approaches with Swagger, Postman, and Manual Writing](https://tekosulaiman.site/api-documentation-practical-approaches-with-swagger-postman-and-manual-writing/) to improve clarity and testing workflows.
+
 ## Example Endpoint
 ```php
 Route::get('/api/test', function () {

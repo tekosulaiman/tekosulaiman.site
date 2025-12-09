@@ -40,6 +40,8 @@ This is where the role of an **IT Analyst** becomes crucial: acting as the bridg
 - **Scalability:** Systems must handle thousands of transactions per second.  
 - **Legacy Integration:** Bridging old systems with modern solutions.
 
+> Curious how analytics drives decision‑making across teams? Explore [Data Analytics in Marketing Examples](https://tekosulaiman.site/data-analytics-in-marketing-examples/) for practical cross‑department insights.
+
 ## 6. **Short Case Study**
 Example implementation in Odoo ERP:  
 - A Purchase Order is created → automatically flows into the invoice module → the system performs a 3-way match → payment is processed via bank API integration.  

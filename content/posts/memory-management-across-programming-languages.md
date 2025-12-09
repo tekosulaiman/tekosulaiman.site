@@ -37,6 +37,8 @@ Understanding the memory footprint at application startup (*first run*) helps de
 
 Would you like me to also add a **“See also” section** at the bottom of the pillar article that lists all support articles in one place for easier navigation?
 
+> Want language‑specific memory insights? Explore [Understanding Memory Usage in Python REST API](https://tekosulaiman.site/understanding-memory-usage-in-python-rest-api/) for a focused deep dive.
+
 ## 4. Logging vs Monitoring
 
 ### 🔹 Logging (Snapshot Demo)

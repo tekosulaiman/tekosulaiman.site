@@ -19,6 +19,8 @@ I usually share an initial idea of the system to spark discussion. Over time, I�
 
 And here’s the reality: even when plans are carefully written, things rarely go exactly as expected. That’s why I always prepare options A, B, and C as backup strategies. Flexibility is part of the job. But above all, project management is **99% communication**. The remaining 1% is technical, captured in documents so nothing gets lost along the way.
 
+> Looking to strengthen your leadership toolkit? Check out [Management Effectiveness: Lessons from the Field](https://tekosulaiman.site/management-effectiveness-lessons-from-the-field/) for practical insights.
+
 ## Core Documents in My Portfolio
 Based on my experience, these are the documents I consistently prepare to manage projects effectively. Think of them as both a portfolio and a toolkit that keeps the project on track.
 

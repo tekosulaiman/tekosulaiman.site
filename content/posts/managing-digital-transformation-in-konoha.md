@@ -21,6 +21,8 @@ This is where the **IT Project Manager (PM)** plays a critical role: not just ma
 3. **Compliance & Security** → Data regulations in Konoha are becoming stricter.  
 4. **AI Adoption** → Project scopes are often unclear, and ROI is hard to measure.  
 
+> For the technical side of this transformation, explore [Konoha Cloud Migration](https://tekosulaiman.site/konoha-cloud-migration/) to see how infrastructure modernization was executed.
+
 ## 🎯 Showcase: The IT Project Manager in Action  
 **Case: Migrating Core Banking to the Cloud at Konoha Finance**  
 

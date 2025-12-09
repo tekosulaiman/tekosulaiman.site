@@ -63,6 +63,8 @@ With the `spring-boot-starter-actuator` dependency, memory usage can be monitore
 
 Meanwhile, Task Manager shows around **320 MB**, because it includes the full Java process footprint (heap + non-heap + thread stacks + native overhead).
 
+> Want to compare JVM memory behavior with .NET? Explore [Understanding Memory Usage in .NET REST API](https://tekosulaiman.site/understanding-memory-usage-in-net-rest-api/) for a different runtime perspective.
+
 ## 3. Advantages and Drawbacks
 
 ### ✅ Advantages

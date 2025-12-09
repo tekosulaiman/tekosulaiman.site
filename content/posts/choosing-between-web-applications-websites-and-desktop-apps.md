@@ -56,6 +56,8 @@ In today IT landscape, one recurring question is: should we build a **web applic
 
 ---
 
+> Exploring modern cross‑platform options? Read [Flutter: Google’s Cross‑Platform Framework](https://tekosulaiman.site/flutter-google-cross-platform-framework/) for a deeper look at multi‑device development.
+
 ## Decision Framework  
 
 ### Decision Tree (Text Version)  

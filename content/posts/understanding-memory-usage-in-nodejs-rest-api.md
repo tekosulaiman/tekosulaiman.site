@@ -60,6 +60,8 @@ Comparison with other languages:
 - Node.js (Express): ~46 MB  
 - Java (Spring Boot): ~300 MB  
 
+> Curious how dynamic languages differ? Read [Understanding Memory Usage in Ruby REST API](https://tekosulaiman.site/understanding-memory-usage-in-ruby-rest-api/) for another runtime comparison.
+
 ## 4. Advantages
 - Relatively light startup (tens of MB).  
 - Easy memory monitoring with built-in APIs.  

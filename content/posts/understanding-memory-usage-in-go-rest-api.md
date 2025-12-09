@@ -35,6 +35,8 @@ Server running on port 8080
 - **Fast startup** → REST API is ready almost instantly, without heavy overhead.  
 - **Built-in monitoring** → `runtime.ReadMemStats` provides detailed memory insights out of the box.  
 
+> Want to compare Go with another runtime? Explore [Understanding Memory Usage in Node.js REST API](https://tekosulaiman.site/understanding-memory-usage-in-nodejs-rest-api/) for a JavaScript‑based comparison.
+
 ## 4. Drawbacks
 - **Initial data looks empty** → Alloc and TotalAlloc are zero, so it doesn’t reflect real workload usage.  
 - **Profiling is more useful under load** → First run only shows runtime overhead, not actual application memory usage.  

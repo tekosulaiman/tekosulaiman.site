@@ -43,6 +43,8 @@ INFO:     Application startup complete.
 - Easy monitoring with `psutil`.  
 - Great for rapid prototyping and small microservices.  
 
+> Curious how Python compares to Go? Explore [Understanding Memory Usage in Go REST API](https://tekosulaiman.site/understanding-memory-usage-in-go-rest-api/) for a performance‑oriented comparison.
+
 ## 4. Drawbacks
 - Larger footprint compared to Go.  
 - Python’s object overhead can cause memory usage to grow quickly under load.  

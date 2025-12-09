@@ -48,7 +48,9 @@ Puma starting in single mode...
 - **RSS (Resident Set Size)** → total memory used by the Ruby process in the OS.  
 - Initial usage is around **44 MB**, which is normal for Sinatra + Puma on Windows.  
 - Larger than Go (~6 MB), similar to Python (~42 MB), and much smaller than Java Spring Boot (~300 MB).  
-- The Ruby interpreter adds overhead from its object model and garbage collector, plus Puma as the web server.  
+- The Ruby interpreter adds overhead from its object model and garbage collector, plus Puma as the web server. 
+
+> Want to compare Ruby with Node.js? Check out [Understanding Memory Usage in Node.js REST API](https://tekosulaiman.site/understanding-memory-usage-in-nodejs-rest-api/) for runtime differences.
 
 ## 4. Advantages
 - Relatively light startup (tens of MB).  

@@ -41,6 +41,8 @@ The response is structured JSON. Here’s a simplified version:
 - Humidity: 70%  
 - Wind: 5.14 m/s  
 
+> Working with APIs? You may also enjoy [Backend API Testing with Laravel](https://tekosulaiman.site/backend-api-testing-with-laravel/) for deeper insights into validating API reliability.
+
 ## Getting Data by Scraping HTML  
 The website page is:  
 ```

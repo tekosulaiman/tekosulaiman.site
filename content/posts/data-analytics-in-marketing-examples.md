@@ -127,6 +127,8 @@ I evaluate:
 
 I discovered that while search ads brought in many last-touch conversions, social media drove vital first-touch engagement. This insight helped me rebalance budgets more accurately.
 
+> Want to see analytics applied across departments? Explore [How IT Analysts Bridge Finance Teams and Technology](https://tekosulaiman.site/how-it-analysts-bridge-finance-teams-and-technology/) for cross‑functional insights.
+
 ## **6. Market Basket Analysis to Increase Cross-Selling**
 
 **Market basket analysis** helps me identify products customers frequently purchase together.

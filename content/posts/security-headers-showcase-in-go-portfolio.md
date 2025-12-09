@@ -21,6 +21,8 @@ Security headers are the first line of defense sent from the server to the brows
 - Prevent common attacks such as **XSS**, **clickjacking**, and **MIME sniffing**.
 - Provide transparency to developers and reviewers about the security practices in place.
 
+> Want to improve your application hygiene overall? Read [Why Documentation Matters in Application Development](https://tekosulaiman.site/why-documentation-matters-in-application-development/) for foundational best practices.
+
 ## 🛡️ Headers Implemented
 This portfolio demonstrates several important headers:
 

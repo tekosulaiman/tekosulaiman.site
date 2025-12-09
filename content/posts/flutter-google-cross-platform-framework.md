@@ -46,6 +46,8 @@ It uses **Dart** as its main programming language. Flutter has become popular be
 | **Material Design** | Design guidelines | All platforms             | Visual consistency, UI standards         | Not a framework, only guidelines |
 | **Lit/Polymer**  | Web components     | Browser                   | Lightweight, modular                     | Focused only on web          |
 
+> Exploring cross‑platform options? Check out [Choosing Between Web Applications, Websites, and Desktop Apps](https://tekosulaiman.site/choosing-between-web-applications-websites-and-desktop-apps/) for architectural guidance.
+
 ## 7. Flutter in the Mobile Ecosystem
 - **Role of Flutter**: frontend consumer of API.  
 - **Backend/API**: can be built with any language (Node.js, Python, Go, Java, PHP, Dart).  
