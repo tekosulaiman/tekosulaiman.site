@@ -1,28 +1,60 @@
-<footer class="w-full bg-black text-white py-6 mt-12">
-  <div class="max-w-4xl mx-auto px-4 flex flex-col md:flex-row md:justify-between md:items-center gap-4">
-    <!-- Kiri: Copyright -->
-    <p class="text-sm">&copy; {{ CURRENT_YEAR }} {{ SITENAME }} — All rights reserved.</p>
-
-    <!-- Kanan: Menu -->
-    <div class="flex flex-col items-start md:items-end gap-2 text-sm">
-      <a href="{{ SITEURL }}/contact/" class="no-underline text-white hover:text-gray-300">Contact</a>
-      <a href="{{ SITEURL }}/disclaimer/" class="no-underline text-white hover:text-gray-300">Disclaimer</a>
-      <a href="{{ SITEURL }}/privacy-policy/" class="no-underline text-white hover:text-gray-300">Privacy Policy</a>
-
-      <!-- Accordion: IT Insights -->
-      <div class="w-full">
-        <input type="checkbox" id="insights" class="hidden peer">
-        <label for="insights" class="flex flex-col items-start md:items-end gap-2 text-sm">
-          <span class="ml-auto peer-checked:hidden">Blog IT Insights + </span>
-        </label>
-        <div class="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-96 flex flex-col items-start md:items-end gap-1 mt-2">
-          <a href="/blogit/" class="text-white hover:text-gray-300 no-underline">Security Documentation</a>
-          <a href="/blogit/" class="text-white hover:text-gray-300 no-underline">AI & Automation</a>
-          <a href="/blogit/" class="text-white hover:text-gray-300 no-underline">Cloud & DevOps</a>
-          <a href="/blogit/" class="text-white hover:text-gray-300 no-underline">Data Analytics</a>
+<footer class="bg-surface-dark border-t border-slate-800 text-slate-300 py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Grid 4 Columns -->
+    <div class="grid md:grid-cols-4 gap-12 mb-12">
+      
+      <!-- Column 1: Brand -->
+      <div>
+        <h3 class="text-2xl font-bold text-white mb-6">
+          <span class="text-white">Teko</span><span class="text-secondary">Sulaiman</span>
+        </h3>
+        <div class="flex flex-col gap-2 text-sm">
+          <a href="{{ SITEURL }}/about/" class="text-white no-underline hover:text-secondary transition-colors">About Me</a>
+          <a href="{{ SITEURL }}/resume/" class="text-white no-underline hover:text-secondary transition-colors">Resume</a>
+          <a href="{{ SITEURL }}/contact/" class="text-white no-underline hover:text-secondary transition-colors">Contact</a>
         </div>
       </div>
-  
+
+      <!-- Column 2: Portfolio -->
+      <div>
+        <h4 class="text-white font-bold mb-6">Portfolio</h4>
+        <div class="flex flex-col gap-2 text-sm">
+          <a href="{{ SITEURL }}/management/" class="text-white no-underline hover:text-secondary transition-colors">Management</a>
+          <a href="{{ SITEURL }}/analysis/" class="text-white no-underline hover:text-secondary transition-colors">Analysis</a>
+          <a href="{{ SITEURL }}/documentation/" class="text-white no-underline hover:text-secondary transition-colors">Documentation</a>
+          <a href="{{ SITEURL }}/technical/" class="text-white no-underline hover:text-secondary transition-colors">Technical</a>
+        </div>
+      </div>
+
+      <!-- Column 3: Useful Links -->
+      <div>
+        <h4 class="text-white font-bold mb-6">Useful Links</h4>
+        <div class="flex flex-col gap-2 text-sm">
+          <a href="{{ SITEURL }}/blogit/" class="text-white no-underline hover:text-secondary transition-colors">Blog</a>
+          <a href="{{ SITEURL }}/privacy-policy/" class="text-white no-underline hover:text-secondary transition-colors">Privacy Policy</a>
+          <a href="{{ SITEURL }}/disclaimer/" class="text-white no-underline hover:text-secondary transition-colors">Disclaimer</a>
+        </div>
+      </div>
+
+      <!-- Column 4: Contact Info -->
+      <div>
+        <h4 class="text-white font-bold mb-6">Get in Touch</h4>
+        <div class="flex flex-col gap-2 text-sm">
+          <span><span class="text-secondary font-bold">Phone:</span> (+62) 812-1241-1360</span>
+          <span><span class="text-secondary font-bold">Email:</span> tekosulaiman@gmail.com</span>
+          <span><span class="text-secondary font-bold">Address:</span> Jakarta, Indonesia, 12510</span>
+        </div>
+        <div class="mt-6 flex gap-4">
+          <a class="text-slate-400 hover:text-secondary" href="#"><span class="i-mdi-facebook text-lg"></span></a>
+          <a class="text-slate-400 hover:text-secondary" href="#"><span class="i-mdi-twitter text-lg"></span></a>
+          <a class="text-slate-400 hover:text-secondary" href="#"><span class="i-mdi-instagram text-lg"></span></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="border-t border-slate-800 mt-12 pt-8 text-center text-xs text-slate-500">
+      © {{ CURRENT_YEAR }} Teko Sulaiman. All Rights Reserved.
     </div>
   </div>
 </footer>

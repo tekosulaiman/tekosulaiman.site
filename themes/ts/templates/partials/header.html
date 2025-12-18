@@ -1,38 +1,50 @@
-<header class="relative w-full bg-gray-100 shadow-md sticky top-0 left-0 z-50">
-  <div class="max-w-4xl mx-auto flex items-center justify-between px-4 py-3">
+<header class="sticky top-0 z-50 bg-background-dark/95 backdrop-blur-md border-b border-slate-700 shadow-lg">
+  <div class="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 h-20">
     <!-- Brand -->
-    <a href="{{ SITEURL }}/" class="text-xl font-bold text-gray-800 no-underline">
-      {{ SITENAME }}
+    <a href="{{ SITEURL }}/" class="flex items-center gap-2 no-underline">
+      <span class="text-2xl font-bold tracking-tight">
+        <span class="text-white">Teko</span>
+        <span class="text-secondary">Sulaiman</span>
+      </span>
     </a>
 
     <!-- Hamburger -->
-    <button id="menu-toggle" class="lg:hidden flex flex-col gap-1 p-2 text-gray-700" aria-label="Open menu">
-      <span class="w-6 h-0.5 bg-gray-700"></span>
-      <span class="w-6 h-0.5 bg-gray-700"></span>
+    <button id="menu-toggle" class="lg:hidden flex flex-col gap-1 p-2 text-slate-300 hover:text-white hover:bg-slate-800 rounded-md transition-colors" aria-label="Open menu">
+      <span class="w-6 h-0.5 bg-slate-300"></span>
+      <span class="w-6 h-0.5 bg-slate-300"></span>
     </button>
 
     <!-- Desktop Nav -->
-    <nav id="desktop-nav" class="hidden lg:flex gap-6 items-center text-sm font-medium text-gray-700">
-      <a href="{{ SITEURL }}/management/" class="hover:text-blue-600 no-underline">Management</a>
-      <a href="{{ SITEURL }}/analysis/" class="hover:text-blue-600 no-underline">Analysis</a>
-      <a href="{{ SITEURL }}/documentation/" class="hover:text-blue-600 no-underline">Documentation</a>
-      <a href="{{ SITEURL }}/technical/" class="hover:text-blue-600 no-underline">Technical</a>
-      <a href="{{ SITEURL }}/about/" class="hover:text-blue-600 no-underline">About</a>
-      <a href="{{ SITEURL }}/resume/" class="hover:text-blue-600 no-underline">Resume</a>
+    <nav id="desktop-nav" class="hidden lg:flex space-x-8 items-center font-medium">
+      <a href="{{ SITEURL }}/management/" class="text-white no-underline hover:text-secondary transition-colors">Management</a>
+      <a href="{{ SITEURL }}/analysis/" class="text-white no-underline hover:text-secondary transition-colors">Analysis</a>
+      <a href="{{ SITEURL }}/documentation/" class="text-white no-underline hover:text-secondary transition-colors">Documentation</a>
+      <a href="{{ SITEURL }}/technical/" class="text-white no-underline hover:text-secondary transition-colors">Technical</a>
+      <a href="{{ SITEURL }}/about/" class="text-white no-underline hover:text-secondary transition-colors">About</a>
+      <a href="{{ SITEURL }}/resume/" class="text-white no-underline hover:text-secondary transition-colors">Resume</a>
     </nav>
+
+    <!-- CTA -->
+    <div class="hidden sm:inline-flex items-center space-x-4">
+      <a href="{{ SITEURL }}/contact/"
+        class="inline-flex items-center justify-center px-6 py-2 rounded-full shadow-sm text-sm font-bold text-slate-900 bg-secondary hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary transition-all transform hover:scale-105 no-underline">
+        Contact Me
+      </a>
+    </div>
   </div>
 
   <!-- Mobile Nav -->
   <div id="mobile-menu"
-       class="hidden lg:hidden bg-gray-50 text-gray-800 absolute top-full left-0 w-full shadow-md
+      class="hidden lg:hidden bg-background-dark/95 absolute top-full left-0 w-full shadow-md
               transform transition-transform duration-300 ease-in-out -translate-y-4 opacity-0">
-    <div class="max-w-4xl mx-auto flex flex-col px-4 py-2 text-sm font-medium">
-      <a href="{{ SITEURL }}/management/" class="py-2 no-underline hover:text-blue-600">Management</a>
-      <a href="{{ SITEURL }}/analysis/" class="py-2 no-underline hover:text-blue-600">Analysis</a>
-      <a href="{{ SITEURL }}/documentation/" class="py-2 no-underline hover:text-blue-600">Documentation</a>
-      <a href="{{ SITEURL }}/technical/" class="py-2 no-underline hover:text-blue-600">Technical</a>
-      <a href="{{ SITEURL }}/about/" class="py-2 no-underline hover:text-blue-600">About</a>
-      <a href="{{ SITEURL }}/resume/" class="py-2 no-underline hover:text-blue-600">Resume</a>
+    <div class="max-w-7xl mx-auto flex flex-col px-4 py-2 text-sm font-medium">
+      <a href="{{ SITEURL }}/management/" class="py-2 text-white no-underline hover:text-secondary transition-colors">Management</a>
+      <a href="{{ SITEURL }}/analysis/" class="py-2 text-white no-underline hover:text-secondary transition-colors">Analysis</a>
+      <a href="{{ SITEURL }}/documentation/" class="py-2 text-white no-underline hover:text-secondary transition-colors">Documentation</a>
+      <a href="{{ SITEURL }}/technical/" class="py-2 text-white no-underline hover:text-secondary transition-colors">Technical</a>
+      <a href="{{ SITEURL }}/about/" class="py-2 text-white no-underline hover:text-secondary transition-colors">About</a>
+      <a href="{{ SITEURL }}/resume/" class="py-2 text-white no-underline hover:text-secondary transition-colors">Resume</a>
     </div>
   </div>
+
 </header>

@@ -3,8 +3,13 @@
   <head>
     {% include "partials/head.html" %}
   </head>
-  <body class="m-0 font-sans">
+  <body class="m-0 bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-100 font-sans antialiased transition-colors duration-300">
+    {% include "partials/topbar.html" %}
     {% include "partials/header.html" %}
+
+    <!-- ✅ Block tambahan sebelum main --> 
+     {% block pre_main %}{% endblock %}
+
     <main class="flex-grow mt-2 mb-8 px-4 max-w-4xl mx-auto">
       {% block content %}{% endblock %}
     </main>
