@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>ArcticCool Services - AC Repair &amp; Installation</title>
+  <!-- Google Fonts: Spline Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <!-- Material Symbols -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet">
+  <!-- Tailwind CSS with Plugins -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <!-- Tailwind Config -->
+  <script
+    id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { primary: "#3e21ec", "primary-hover": "#2bc968", "background-light": "#f6f6f8", "background-dark": "#131022", "card-dark": "#1a2e23", "text-subtle": "#95c6a9" }, fontFamily: { display: "Spline Sans" }, borderRadius: { DEFAULT: "1rem", lg: "2rem", xl: "3rem", full: "9999px" } } } };</script>
+  <style>
+    body {
+      font-family: "Spline Sans", sans-serif;
+    }
+
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Custom scrollbar for webkit */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #112117;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #254632;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #36e27b;
+    }
+  </style>
+</head>
+
+<body
+  class="bg-background-light dark:bg-background-dark min-h-screen flex flex-col overflow-x-hidden selection:bg-primary selection:text-background-dark">
+  <!-- Top Navigation Bar -->
+  <header
+    class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background-dark/95 backdrop-blur-md border-b border-[#254632]">
+    <div class="max-w-[1200px] mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3 text-white cursor-pointer select-none">
+        <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full text-background-dark">
+          <span class="material-symbols-outlined text-xl font-bold">ac_unit</span>
+        </div>
+        <h2 class="text-xl font-bold tracking-tight">ArcticCool</h2>
+      </div>
+      <nav class="hidden md:flex items-center gap-8">
+        <a class="text-white/80 hover:text-primary transition-colors text-sm font-medium" href="#home">Home</a>
+        <a class="text-white/80 hover:text-primary transition-colors text-sm font-medium" href="#services">Services</a>
+        <a class="text-white/80 hover:text-primary transition-colors text-sm font-medium" href="#about">About</a>
+        <a class="text-white/80 hover:text-primary transition-colors text-sm font-medium" href="#contact">Contact</a>
+      </nav>
+      <div class="flex items-center gap-4">
+        <a class="hidden lg:flex items-center gap-2 text-white text-sm font-medium" href="tel:+1234567890">
+          <span class="material-symbols-outlined text-primary text-[20px]">call</span>
+          (555) 123-4567
+        </a>
+        <button
+          class="bg-primary hover:bg-primary-hover text-background-dark text-sm font-bold py-2.5 px-6 rounded-full transition-transform hover:scale-105 active:scale-95 shadow-[0_0_15px_rgba(54,226,123,0.3)]">
+          Book Now
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- Main Content Container -->
+  <main class="flex-grow pt-20">
+    <!-- Hero Section -->
+    <section class="relative pt-12 pb-20 px-6 lg:px-20 overflow-hidden" id="home">
+      <!-- Background Blob -->
+      <div
+        class="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[100px] -z-10 pointer-events-none">
+      </div>
+      <div class="max-w-[1200px] mx-auto">
+        <div class="flex flex-col lg:flex-row gap-12 items-center">
+          <!-- Hero Content -->
+          <div class="flex-1 flex flex-col gap-6 text-center lg:text-left z-10">
+            <div
+              class="inline-flex items-center gap-2 px-3 py-1 bg-[#254632]/50 border border-[#254632] rounded-full w-fit mx-auto lg:mx-0">
+              <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+              <span class="text-primary text-xs font-semibold tracking-wide uppercase">24/7 Emergency Service
+                Available</span>
+            </div>
+            <h1 class="text-white text-5xl lg:text-7xl font-bold leading-[1.1] tracking-tight">
+              Stay Cool &amp; <br>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-[#95c6a9]">Comfortable.</span>
+            </h1>
+            <p class="text-text-subtle text-lg lg:text-xl leading-relaxed max-w-[600px] mx-auto lg:mx-0">
+              Professional AC installation, repair, and maintenance services. We bring the chill back to your home with
+              fast, reliable, and eco-friendly solutions.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+              <button
+                class="flex items-center justify-center gap-2 bg-primary hover:bg-primary-hover text-background-dark text-base font-bold h-12 px-8 rounded-full transition-all hover:shadow-[0_0_20px_rgba(54,226,123,0.4)]">
+                <span>Get a Free Quote</span>
+                <span class="material-symbols-outlined text-lg">arrow_forward</span>
+              </button>
+              <button
+                class="flex items-center justify-center gap-2 bg-[#254632]/30 hover:bg-[#254632]/60 border border-[#366348] text-white text-base font-medium h-12 px-8 rounded-full transition-colors">
+                <span>View Services</span>
+              </button>
+            </div>
+            <!-- Mini Trust Proof -->
+            <div class="flex items-center justify-center lg:justify-start gap-4 pt-6 text-sm text-text-subtle">
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+                <span>Licensed &amp; Insured</span>
+              </div>
+              <div class="w-1 h-1 bg-[#366348] rounded-full"></div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined text-primary text-[18px]">stars</span>
+                <span>5-Star Rated</span>
+              </div>
+            </div>
+          </div>
+          <!-- Hero Image -->
+          <div class="flex-1 w-full max-w-[600px] lg:max-w-none relative group">
+            <div
+              class="absolute inset-0 bg-primary/20 rounded-[2.5rem] rotate-3 scale-95 blur-sm transition-transform duration-500 group-hover:rotate-6">
+            </div>
+            <div
+              class="relative w-full aspect-[4/3] rounded-[2.5rem] overflow-hidden shadow-2xl border border-[#254632]">
+              <div class="w-full h-full bg-cover bg-center transition-transform duration-700 hover:scale-105"
+                data-alt="Modern living room with a sleek air conditioning unit mounted on a dark wall"
+                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBP_Uw03VFFLpRRmODRz4QXwEp5D0MX7Vki8DiDdEElk1DFz5L4gvwJJQDs7pC80_K1ANLqUK6qh10EUg2BQemrY5zaF5HOtezXgcUwZp8Uvh0ucDpeEjP_oEbh6EaEeN10NQOiiug5bpFKrGOKsnhYv1IMhWs_dLmX6UxGPuXmrQmlsPbfOLWp4fHirXACcqmkdkuRgYsn7gsJU9miQQlFpp-2pUA-QzEGqtED-EGyTQGtMu15IZ_Adso2kaIOV4UhQetQ9fkpQE0');">
+              </div>
+              <!-- Floating Badge -->
+              <div
+                class="absolute bottom-6 left-6 right-6 bg-background-dark/90 backdrop-blur-md p-4 rounded-xl border border-[#366348] flex items-center gap-4">
+                <div class="bg-primary/20 p-2 rounded-full text-primary">
+                  <span class="material-symbols-outlined">thermostat</span>
+                </div>
+                <div>
+                  <p class="text-white font-bold text-sm">Optimal Temperature</p>
+                  <p class="text-text-subtle text-xs">Ensuring 72°F comfort all year round</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Stats Section -->
+    <section class="py-10 bg-background-dark border-y border-[#254632]">
+      <div class="max-w-[1200px] mx-auto px-6">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-[#254632]/50">
+          <div class="flex flex-col gap-1 items-center justify-center p-2">
+            <span class="text-4xl lg:text-5xl font-bold text-white tracking-tight">5k+</span>
+            <span class="text-text-subtle text-sm font-medium">Happy Customers</span>
+          </div>
+          <div class="flex flex-col gap-1 items-center justify-center p-2">
+            <span class="text-4xl lg:text-5xl font-bold text-white tracking-tight">12+</span>
+            <span class="text-text-subtle text-sm font-medium">Years Experience</span>
+          </div>
+          <div class="flex flex-col gap-1 items-center justify-center p-2">
+            <span class="text-4xl lg:text-5xl font-bold text-white tracking-tight">50+</span>
+            <span class="text-text-subtle text-sm font-medium">Tech Experts</span>
+          </div>
+          <div class="flex flex-col gap-1 items-center justify-center p-2">
+            <span class="text-4xl lg:text-5xl font-bold text-white tracking-tight">24h</span>
+            <span class="text-text-subtle text-sm font-medium">Emergency Response</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features Section -->
+    <section class="py-24 px-6 bg-background-dark relative" id="services">
+      <div class="max-w-[1200px] mx-auto">
+        <div class="text-center mb-16 max-w-[700px] mx-auto">
+          <h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Our Services</h2>
+          <h3 class="text-3xl md:text-5xl font-bold text-white mb-6">Cooling Solutions Tailored for You</h3>
+          <p class="text-text-subtle text-lg">From emergency repairs to routine maintenance, our certified technicians
+            ensure your home stays perfectly comfortable.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Service Card 1 -->
+          <div
+            class="group relative bg-card-dark rounded-[2rem] p-2 hover:bg-[#1f3629] transition-colors duration-300 border border-[#254632]">
+            <div class="w-full aspect-video rounded-[1.5rem] overflow-hidden mb-4 relative">
+              <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+              <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                data-alt="Technician installing a white wall-mounted air conditioner unit"
+                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBQFigARNFhRNEcCeh9k42xHQ9JQIj6THAmFqldVKqOauMTX3QwvR9dzYvYu2Jhs3uNLGXuB6IlYI-nNUXYQ0aO6qlDGHp_6fxdKfTeFMJKhh0SXAzC5LhgdZe73CJlSZq2zzEkh1TQElOQVsxgZOcQl38ZMNO0D0f1jQ6CfU6EQRi0grcqgTPHNOZ4NXCG9Nn_IZiHZWPxg1i-Tw0gf4Q_i-VNtyiq1-7_mg5zpdHIDsgmUvQECWqfAvUiITBWiflm2fJKPYOySAs');">
+              </div>
+            </div>
+            <div class="px-4 pb-6">
+              <div class="flex justify-between items-start mb-2">
+                <h4 class="text-xl font-bold text-white group-hover:text-primary transition-colors">AC Installation</h4>
+                <span
+                  class="material-symbols-outlined text-primary opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">arrow_outward</span>
+              </div>
+              <p class="text-text-subtle text-sm leading-relaxed mb-4">Professional installation of energy-efficient
+                units. We size it right for your home to save you money.</p>
+              <a class="inline-flex text-white text-sm font-semibold border-b border-primary/50 pb-0.5 hover:border-primary transition-colors"
+                href="#">Learn More</a>
+            </div>
+          </div>
+          <!-- Service Card 2 -->
+          <div
+            class="group relative bg-card-dark rounded-[2rem] p-2 hover:bg-[#1f3629] transition-colors duration-300 border border-[#254632]">
+            <div class="w-full aspect-video rounded-[1.5rem] overflow-hidden mb-4 relative">
+              <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+              <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                data-alt="Close up of air conditioner vent with blue cold air effect"
+                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA_ncWh9oMJJfSRNOx8iC3qXI5g_muoTmNM_RGGxccLzNPPR2988076UPlFpabsxC3mO6q9GmzzBo1fMT0rVConrEunLeBAjnc26ZMGeK80Ju36EllVVwr5Odp-07ByU5dggoVZy8HbygfejQ47f3daTZp4RpQ3JmZWNNk7DQVBbf3cSMLr8_vb5z_zJERKfVC1AHffKNY-dKfbsveR41jMBTSrzbB4Mqp1b4mPTkakRjgzOeGaI8nn_Sjy7NdZTLF4vy5O0b5R6CU');">
+              </div>
+            </div>
+            <div class="px-4 pb-6">
+              <div class="flex justify-between items-start mb-2">
+                <h4 class="text-xl font-bold text-white group-hover:text-primary transition-colors">Emergency Repair
+                </h4>
+                <span
+                  class="material-symbols-outlined text-primary opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">arrow_outward</span>
+              </div>
+              <p class="text-text-subtle text-sm leading-relaxed mb-4">24/7 rapid response for sudden breakdowns. We get
+                your system running when you need it most.</p>
+              <a class="inline-flex text-white text-sm font-semibold border-b border-primary/50 pb-0.5 hover:border-primary transition-colors"
+                href="#">Learn More</a>
+            </div>
+          </div>
+          <!-- Service Card 3 -->
+          <div
+            class="group relative bg-card-dark rounded-[2rem] p-2 hover:bg-[#1f3629] transition-colors duration-300 border border-[#254632]">
+            <div class="w-full aspect-video rounded-[1.5rem] overflow-hidden mb-4 relative">
+              <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
+              <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                data-alt="Technician hands holding tools inspecting an AC component"
+                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCbP8A8efbc_gbIPs0TvOWNEjUxQHJLEZruiNttJuyeW9uCD4k_WqMgCzXpnrNXC7H5vbnF-C0nyHYl-f8QvTOnPBDE1OfqE_OHrgXGvPVTkOMV3mwYptGg3TmooR02Wec8AZ-unrnZtzgO5eGUr9xiicV_KhjyII3eOUNVky8EmSpyNFhVygJXMY_kgSYxv9czG8lSE89wQNC01o6tbQgt6QEneTcK_39NMWb2GUFz9H2YJjsrtwvSSi_oDR3OLfvXskjzCiQP4Qc');">
+              </div>
+            </div>
+            <div class="px-4 pb-6">
+              <div class="flex justify-between items-start mb-2">
+                <h4 class="text-xl font-bold text-white group-hover:text-primary transition-colors">Routine Maintenance
+                </h4>
+                <span
+                  class="material-symbols-outlined text-primary opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all">arrow_outward</span>
+              </div>
+              <p class="text-text-subtle text-sm leading-relaxed mb-4">Regular checkups to improve air quality, extend
+                unit lifespan, and prevent costly breakdowns.</p>
+              <a class="inline-flex text-white text-sm font-semibold border-b border-primary/50 pb-0.5 hover:border-primary transition-colors"
+                href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Why Choose Us -->
+    <section class="py-20 px-6 bg-[#0d1811] relative overflow-hidden" id="about">
+      <!-- Background Decoration -->
+      <div
+        class="absolute top-1/2 left-0 -translate-y-1/2 w-[400px] h-[400px] bg-primary/5 rounded-full blur-[80px] pointer-events-none">
+      </div>
+      <div class="max-w-[1200px] mx-auto flex flex-col lg:flex-row gap-16 items-center">
+        <div class="flex-1 space-y-8">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Why Choose ArcticCool?</h2>
+            <p class="text-text-subtle text-lg">We don't just fix ACs; we guarantee comfort. Our commitment to quality
+              and transparency sets us apart.</p>
+          </div>
+          <div class="space-y-6">
+            <div class="flex gap-4 items-start">
+              <div
+                class="w-12 h-12 rounded-full bg-[#1b3224] flex items-center justify-center shrink-0 border border-[#366348]">
+                <span class="material-symbols-outlined text-primary text-2xl">verified_user</span>
+              </div>
+              <div>
+                <h4 class="text-white text-lg font-bold">Certified Experts</h4>
+                <p class="text-text-subtle text-sm mt-1">Our technicians are fully licensed, insured, and
+                  background-checked for your peace of mind.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <div
+                class="w-12 h-12 rounded-full bg-[#1b3224] flex items-center justify-center shrink-0 border border-[#366348]">
+                <span class="material-symbols-outlined text-primary text-2xl">payments</span>
+              </div>
+              <div>
+                <h4 class="text-white text-lg font-bold">Upfront Pricing</h4>
+                <p class="text-text-subtle text-sm mt-1">No hidden fees. You'll know exactly what you're paying for
+                  before we start any work.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <div
+                class="w-12 h-12 rounded-full bg-[#1b3224] flex items-center justify-center shrink-0 border border-[#366348]">
+                <span class="material-symbols-outlined text-primary text-2xl">eco</span>
+              </div>
+              <div>
+                <h4 class="text-white text-lg font-bold">Eco-Friendly Solutions</h4>
+                <p class="text-text-subtle text-sm mt-1">We prioritize energy-efficient units and responsible disposal
+                  of old equipment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 relative w-full lg:w-auto">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="space-y-4 translate-y-8">
+              <div class="w-full aspect-[3/4] rounded-2xl bg-cover bg-center"
+                data-alt="Clean minimal white room with ceiling fan and cool lighting"
+                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAulccXrpcHqMcwP_wMu5pgrmymAYDZdvC4Q2fg4oqSPOz9L3uTe9zhbC1tAFoO-5syIU_vaYtRmvFCeifwkovI_TMx0dcA7tY4cWCqhdiyPprooVns6D8YVc-IL0ueefmKobUri-ROfAUYUfW96V3gUZRNz7H3G5Pf-byrj6fj0oKWo7rdHYQ-PbTS6GYlGna5WmvY09Q1ug2tK1IiFzCv3s8iA61Boef_0dusItRB7nV31PkEmuZjPmBbmT-F3acLy7PUGGg_TyA');">
+              </div>
+            </div>
+            <div class="space-y-4">
+              <div class="w-full aspect-square rounded-2xl bg-cover bg-center"
+                data-alt="Smiling female customer service agent with headset"
+                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuClOHQP1QODGtO0dM6LbHzgy4klDVV1ZNW_vCb5uXpkxzMt5Gku8bzug_ZHY3dOInTu_jVMVOD3UKzNtVW3z_aPwguKphwgVHFICQHcFtNChY_RBVw_qY5vbtqV7qeQE31MdsMrntkLn7KZcdygQP4MV8lwcRrEo3CN4_AQDZdPHPPKXx1JVsujUREmZTaFLMHHKC3ykPbNYknH-rvWddBTqutMcfGC1cjRCjKRiZ1vZO9nV9OhGLK5PgmXQ-PVJW637GbPnlOovYI');">
+              </div>
+              <div class="bg-primary p-6 rounded-2xl flex flex-col justify-between">
+                <span class="material-symbols-outlined text-background-dark text-4xl mb-2">thumb_up</span>
+                <p class="text-background-dark font-bold text-lg leading-tight">100% Satisfaction Guarantee</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Section -->
+    <section class="py-24 px-6 bg-background-dark border-t border-[#254632]">
+      <div class="max-w-[1200px] mx-auto text-center mb-16">
+        <h2 class="text-3xl md:text-5xl font-bold text-white mb-4">What Our Clients Say</h2>
+      </div>
+      <div class="max-w-[1000px] mx-auto grid md:grid-cols-2 gap-6">
+        <!-- Testimonial 1 -->
+        <div class="bg-card-dark p-8 rounded-[2rem] border border-[#254632] relative">
+          <span
+            class="material-symbols-outlined absolute top-8 right-8 text-[#254632] text-6xl select-none">format_quote</span>
+          <div class="flex items-center gap-4 mb-6 relative z-10">
+            <div class="w-14 h-14 rounded-full bg-cover bg-center border-2 border-primary"
+              data-alt="Portrait of a smiling young man"
+              style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDRHUvP8jsHcxCGc6A-CzqJPfBnBIG7Szr5gaI05RHQaYEVQeYqejs1RQrYy2fgJGk5FbzYUz7eA00hds3u3xEUIpJm0Eoe5q-XSLWtq-pdFtjfE8pyHh_Zq22SPs3jiXKw7TA67naeu6zmHVzdI-E1L73B4Ev3IjkfYJu4uoDIr8hDfo1NCmUIm4yMAbmeIQCWDqrGU_WUNgGDH1HK471VJy6B8ZJwVp36vyy1o_d4NG1zKQ1hzsce4YaqnDB5gCJMxnwNU0BI0Z4');">
+            </div>
+            <div>
+              <h4 class="text-white font-bold">Michael Chen</h4>
+              <p class="text-text-subtle text-xs">Homeowner, Downtown</p>
+            </div>
+          </div>
+          <p class="text-white/80 leading-relaxed italic relative z-10">"My AC broke down in the middle of a heatwave.
+            ArcticCool sent someone within 2 hours. The technician was polite, efficient, and the price was exactly what
+            they quoted. Lifesavers!"</p>
+          <div class="flex text-primary mt-4">
+            <span class="material-symbols-outlined text-sm">star</span>
+            <span class="material-symbols-outlined text-sm">star</span>
+            <span class="material-symbols-outlined text-sm">star</span>
+            <span class="material-symbols-outlined text-sm">star</span>
+            <span class="material-symbols-outlined text-sm">star</span>
+          </div>
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="bg-card-dark p-8 rounded-[2rem] border border-[#254632] relative">
+          <span
+            class="material-symbols-outlined absolute top-8 right-8 text-[#254632] text-6xl select-none">format_quote</span>
+          <div class="flex items-center gap-4 mb-6 relative z-10">
+            <div class="w-14 h-14 rounded-full bg-cover bg-center border-2 border-primary"
+              data-alt="Portrait of a smiling woman"
+              style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBA6kY37SZwPv-t7MeEQGidiPG64au5dNd-3bLnn7CmiboyjD-8itS57MJUxc8wU4RHgvZTISSZEXdVIyX7eJ_u_0hIDPdJFP5SpOgHPXfu7zKMWEKTJ20bQvRdiIw8eOCzLaFoTJa0rUcqUoMVEJtTErQMBBoTtZsNf79WYQo_RbS6sI0DVep_uRbXYdnj4P_j0ZCtD-KGg3KyhIfktqn6jd_rlaWJCSdAt5IPCHJPCDm5pVJB6PxNWv6bOySb5P5Khrrjk8bVphY');">
+            </div>
+            <div>
+              <h4 class="text-white font-bold">Sarah Jenkins</h4>
+              <p class="text-text-subtle text-xs">Small Business Owner</p>
+            </div>
+          </div>
+          <p class="text-white/80 leading-relaxed italic relative z-10">"We use ArcticCool for our office maintenance.
+            Since switching to them, our energy bills have dropped and the air quality has noticeably improved. Highly
+            professional team."</p>
+          <div class="flex text-primary mt-4">
+            <span class="material-symbols-outlined text-sm">star</span>
+            <span class="material-symbols-outlined text-sm">star</span>
+            <span class="material-symbols-outlined text-sm">star</span>
+            <span class="material-symbols-outlined text-sm">star</span>
+            <span class="material-symbols-outlined text-sm">star</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA / Footer Section -->
+    <footer class="bg-[#0b140e] border-t border-[#254632] pt-20 pb-10 px-6" id="contact">
+      <div class="max-w-[1200px] mx-auto">
+        <div class="bg-primary rounded-[2.5rem] p-10 md:p-16 text-center md:text-left relative overflow-hidden mb-20">
+          <!-- Pattern overlay -->
+          <div class="absolute inset-0 opacity-10"
+            style="background-image: radial-gradient(#000 1px, transparent 1px); background-size: 20px 20px;"></div>
+          <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+            <div class="max-w-xl">
+              <h2 class="text-3xl md:text-4xl font-bold text-background-dark mb-4">Ready for Total Comfort?</h2>
+              <p class="text-[#122118]/80 text-lg font-medium">Book your service today and get <span
+                  class="font-bold underline">10% off</span> your first repair or maintenance visit.</p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+              <button
+                class="bg-background-dark text-white hover:bg-black font-bold py-4 px-8 rounded-full shadow-lg transition-transform hover:scale-105 whitespace-nowrap">
+                Schedule Now
+              </button>
+              <button
+                class="bg-transparent border-2 border-background-dark text-background-dark hover:bg-background-dark/10 font-bold py-4 px-8 rounded-full transition-colors whitespace-nowrap">
+                Call (555) 123-4567
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+          <div class="col-span-1 md:col-span-1">
+            <div class="flex items-center gap-2 text-white mb-6">
+              <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full text-background-dark">
+                <span class="material-symbols-outlined text-xl font-bold">ac_unit</span>
+              </div>
+              <h2 class="text-xl font-bold">ArcticCool</h2>
+            </div>
+            <p class="text-text-subtle text-sm leading-relaxed mb-6">Providing top-tier air conditioning services to
+              keep your home and business cool, comfortable, and energy-efficient.</p>
+            <div class="flex gap-4">
+              <a class="w-10 h-10 rounded-full bg-[#1b3224] flex items-center justify-center text-white hover:bg-primary hover:text-background-dark transition-colors"
+                href="#">
+                <!-- Twitter Icon Replacement -->
+                <svg aria-hidden="true" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+                  </path>
+                </svg>
+              </a>
+              <a class="w-10 h-10 rounded-full bg-[#1b3224] flex items-center justify-center text-white hover:bg-primary hover:text-background-dark transition-colors"
+                href="#">
+                <!-- Facebook Icon Replacement -->
+                <svg aria-hidden="true" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path clip-rule="evenodd"
+                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                    fill-rule="evenodd"></path>
+                </svg>
+              </a>
+              <a class="w-10 h-10 rounded-full bg-[#1b3224] flex items-center justify-center text-white hover:bg-primary hover:text-background-dark transition-colors"
+                href="#">
+                <!-- Instagram Icon Replacement -->
+                <svg aria-hidden="true" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path clip-rule="evenodd"
+                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.468 2.37c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                    fill-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-span-1">
+            <h3 class="text-white font-bold mb-6">Quick Links</h3>
+            <ul class="space-y-4 text-text-subtle text-sm">
+              <li><a class="hover:text-primary transition-colors" href="#">About Us</a></li>
+              <li><a class="hover:text-primary transition-colors" href="#">Services</a></li>
+              <li><a class="hover:text-primary transition-colors" href="#">Book Online</a></li>
+              <li><a class="hover:text-primary transition-colors" href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-span-1">
+            <h3 class="text-white font-bold mb-6">Services</h3>
+            <ul class="space-y-4 text-text-subtle text-sm">
+              <li><a class="hover:text-primary transition-colors" href="#">Installation</a></li>
+              <li><a class="hover:text-primary transition-colors" href="#">Repair</a></li>
+              <li><a class="hover:text-primary transition-colors" href="#">Maintenance</a></li>
+              <li><a class="hover:text-primary transition-colors" href="#">Air Quality</a></li>
+            </ul>
+          </div>
+          <div class="col-span-1">
+            <h3 class="text-white font-bold mb-6">Contact</h3>
+            <ul class="space-y-4 text-text-subtle text-sm">
+              <li class="flex items-start gap-3">
+                <span class="material-symbols-outlined text-primary text-base mt-0.5">location_on</span>
+                <span>123 Cooling Way, Suite 100<br>Metropolis, NY 10012</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-primary text-base">call</span>
+                <span>(555) 123-4567</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-primary text-base">mail</span>
+                <span>hello@arcticcool.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="pt-8 border-t border-[#254632] flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-text-subtle">
+          <p>© 2024 ArcticCool Services. All rights reserved.</p>
+          <div class="flex gap-6">
+            <a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+            <a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>

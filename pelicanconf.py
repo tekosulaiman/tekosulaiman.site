@@ -16,12 +16,40 @@ STATIC_PATHS = [
     'images',
     'robots.txt',
     'favicon.ico',
+    'extra/jasa-pembuatan-website',
+    'extra/jasa-pembuatan-aplikasi',
 ]
+
 TEMPLATE_PAGES = {
     'sitemap-post.xml': 'sitemap-post.xml',
     'sitemap-page.xml': 'sitemap-page.xml',
     'sitemap-index.xml': 'sitemap-index.xml',
 }
+
+EXTRA_PATH_METADATA = {
+    'extra/jasa-pembuatan-website/jual-tembakau/index.html': {
+        'path': 'jasa-pembuatan-website/jual-tembakau/index.html'
+    },
+    'extra/jasa-pembuatan-website/koperasi/index.html': {
+        'path': 'jasa-pembuatan-website/koperasi/index.html'
+    },
+    'extra/jasa-pembuatan-website/laundry/index.html': {
+        'path': 'jasa-pembuatan-website/laundry/index.html'
+    },
+    'extra/jasa-pembuatan-website/service-ac/index.html': {
+        'path': 'jasa-pembuatan-website/service-ac/index.html'
+    },
+    'extra/jasa-pembuatan-website/virtual-assistant/index.html': {
+        'path': 'jasa-pembuatan-website/virtual-assistant/index.html'
+    },
+    'extra/jasa-pembuatan-aplikasi/erp/index.html': {
+        'path': 'jasa-pembuatan-aplikasi/erp/index.html'
+    },
+    'extra/jasa-pembuatan-aplikasi/kasir/index.html': {
+        'path': 'jasa-pembuatan-aplikasi/kasir/index.html'
+    },
+}
+
 THEME_STATIC_DIR = 'theme'
 THEME_STATIC_PATHS = ['static']
 

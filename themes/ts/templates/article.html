@@ -1,49 +1,49 @@
 {% extends "layouts/base.html" %}
 {% block content %}
 
-  <!-- Breadcrumb -->
-  <nav class="text-sm text-gray-500 mb-4">
-    <a href="{{ SITEURL }}/">Home</a> ›
-    <span>{{ article.category }}</span> ›
-    <span>{{ article.title }}</span>
-  </nav>
+<!-- Breadcrumb -->
+<nav class="max-w-4xl mx-auto px-4 text-sm text-gray-500 mb-4 py-8">
+  <a href="{{ SITEURL }}/">Home</a> ›
+  <span>{{ article.category }}</span> ›
+  <span>{{ article.title }}</span>
+</nav>
 
-  <article class="prose max-w-4xl mx-auto px-4">
-    <h1 class="text-3xl font-bold mb-4">{{ article.title }}</h1>
-    <p class="text-sm text-gray-500 mb-6">
-      {{ article.date.strftime('%d %B %Y') }} · {{ article.category }} · {{ article.author }}
+<article class="prose max-w-4xl mx-auto px-4">
+  <h1 class="text-3xl font-bold mb-4">{{ article.title }}</h1>
+  <p class="text-sm text-gray-500 mb-6">
+    {{ article.date.strftime('%d %B %Y') }} · {{ article.category }} · {{ article.author }}
+  </p>
+  <div class="article-body">
+    {{ article.content }}
+  </div>
+</article>
+
+<!-- Tags -->
+{% if article.tags %}
+  <div class="max-w-4xl mx-auto px-4 mt-6">
+    <p class="text-sm text-gray-700">Tags:
+      {% for tag in article.tags %}
+        <span class="inline-block rounded bg-gray-200 px-2 py-1 mr-1">#{{ tag }}</span>
+      {% endfor %}
     </p>
-    <div class="article-body">
-      {{ article.content }}
-    </div>
-  </article>
+  </div>
+{% endif %}
 
-  <!-- Tags -->
-  {% if article.tags %}
-    <div class="max-w-4xl mx-auto px-4 mt-6">
-      <p class="text-sm text-gray-700">Tags:
-        {% for tag in article.tags %}
-          <span class="inline-block rounded bg-gray-200 px-2 py-1 mr-1">#{{ tag }}</span>
-        {% endfor %}
-      </p>
-    </div>
+<!-- Prev/Next -->
+<div class="max-w-4xl mx-auto px-4 mt-8 flex justify-between text-sm">
+  {% if article.prev_article %}
+    <span class="mr-1">←</span>
+    <a href="{{ SITEURL }}/{{ article.prev_article.url }}" class="text-blue-600 hover:text-blue-400">
+      {{ article.prev_article.title }}
+    </a>
   {% endif %}
 
-  <!-- Prev/Next -->
-  <div class="max-w-4xl mx-auto px-4 mt-8 flex justify-between text-sm">
-    {% if article.prev_article %}
-      <span class="mr-1">←</span>
-      <a href="{{ SITEURL }}/{{ article.prev_article.url }}" class="text-blue-600 hover:text-blue-400">
-        {{ article.prev_article.title }}
-      </a>
-    {% endif %}
-
-    {% if article.next_article %}
-      <a href="{{ SITEURL }}/{{ article.next_article.url }}" class="text-blue-600 hover:text-blue-400">
-        {{ article.next_article.title }}
-      </a>
-      <span class="ml-1">→</span>
-    {% endif %}
-  </div>
+  {% if article.next_article %}
+    <a href="{{ SITEURL }}/{{ article.next_article.url }}" class="text-blue-600 hover:text-blue-400">
+      {{ article.next_article.title }}
+    </a>
+    <span class="ml-1">→</span>
+  {% endif %}
+</div>
 
 {% endblock %}

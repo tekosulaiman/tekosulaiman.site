@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koperasi Digital - Landing Page</title>
+    <!-- UnoCSS / Tailwind build -->
+    <link rel="stylesheet" href="/static/css/koperasi.css">
+    <!-- Favicon -->
+    <link rel="icon" href="/static/img/koperasi-icon.png" type="image/png">
+    <!-- Meta SEO -->
+    <meta name="description" content="Landing page koperasi digital, solusi murah dan profesional untuk UMKM.">
+    <meta name="keywords" content="koperasi, landing page, website murah, UMKM, digital">
+    <meta name="author" content="Teko Sulaiman">
+  </head>
+  <body class="m-0 bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-100 font-sans antialiased transition-colors duration-300">
+
+    <nav class="sticky top-0 z-50 backdrop-blur-md border-b shadow-lg" style="background-color:#360f5a; border-color:#360f5a;">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20 items-center">
+          
+          <!-- Logo + Brand -->
+          <div class="flex items-center gap-2">
+            <div class="bg-surface-light rounded-full p-1.5">
+              <!-- Heroicon: Bank -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="#ff8503">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M4 6l8-4 8 4M4 10v10h16V10" />
+              </svg>
+            </div>
+            <span class="text-2xl font-bold text-white tracking-tight">
+              Koperasi<span style="color:#ff8503">Maju</span>
+            </span>
+          </div>
+          
+          <!-- Navigation -->
+          <div class="hidden md:flex space-x-8 font-medium">
+            <a class="text-white no-underline hover:text-white transition-colors" href="#">Beranda</a>
+            <a class="text-white no-underline hover:text-white transition-colors" href="#tentang">Tentang Kami</a>
+            <a class="text-white no-underline hover:text-white transition-colors" href="#layanan">Layanan</a>
+            <a class="text-white no-underline hover:text-white transition-colors" href="#blog">Blog</a>
+            <a class="text-white no-underline hover:text-white transition-colors" href="#kontak">Kontak</a>
+          </div>
+          
+          <!-- Actions -->
+          <div class="flex items-center space-x-4">
+            <!-- CTA Button -->
+            <a class="no-underline hidden sm:inline-flex items-center justify-center px-6 py-2 border border-transparent rounded-full shadow-sm text-sm font-bold text-white transition-all transform hover:scale-105"
+              style="background-color:#ff8503; hover:bg:#e67300;"
+              href="https://wa.me/6281212411360?text=Halo,%20saya%20mau%20gabung%20koperasi%20digital">
+              Daftar Sekarang
+              <!-- Heroicon: Arrow Right -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="white">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="relative bg-hero-pattern h-[85vh] flex items-center justify-center text-center px-4 overflow-hidden">
+      <!-- Background blur circles -->
+      <div class="absolute top-20 left-10 w-64 h-64 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
+      <div class="absolute bottom-20 right-10 w-80 h-80 bg-accent/20 rounded-full blur-3xl"></div>
+
+      <!-- Main content -->
+      <div class="relative z-10 max-w-5xl mx-auto space-y-8">
+        <!-- Badge -->
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800/50 border border-slate-600 text-secondary text-sm font-medium mb-4">
+          <!-- Heroicon: Rocket -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7M12 3v2m0 14v2m8-8h2M2 12H0" />
+          </svg>
+          <span>Investasi Cerdas untuk Masa Depan Koperasi</span>
+        </div>
+
+        <!-- Heading -->
+        <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight tracking-tight">
+          Solusi Keuangan Pintar <br>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-yellow-200">untuk Koperasi Anda</span>
+        </h1>
+
+        <!-- Description -->
+        <p class="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
+          Platform digital terintegrasi yang memudahkan pengelolaan simpanan, pinjaman, dan pengembangan bisnis anggota dengan transparansi penuh.
+        </p>
+
+        <!-- CTA buttons -->
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8">
+          <!-- Primary CTA -->
+          <a class="no-underline px-8 py-4 bg-primary hover:bg-blue-600 text-white rounded-full font-bold shadow-lg shadow-blue-500/30 transition-all transform hover:-translate-y-1 flex items-center gap-2"
+            href="#">
+            Mulai Sekarang
+            <!-- Heroicon: Arrow Circle Right -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+          </a>
+
+          <!-- Secondary CTA -->
+          <a class="no-underline px-8 py-4 bg-transparent border border-slate-400 hover:border-white text-white rounded-full font-bold transition-all hover:bg-white/10 flex items-center gap-2 group"
+            href="#">
+            <span class="bg-white text-slate-900 rounded-full p-1 group-hover:bg-secondary transition-colors">
+              <!-- Heroicon: Play -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-slate-900 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-6.518-3.759A1 1 0 007 8.24v7.52a1 1 0 001.234.96l6.518-3.76a1 1 0 000-1.792z" />
+              </svg>
+            </span>
+            Pelajari Lebih Lanjut
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="py-12 border-b border-slate-800" style="background-color:#360f5a;">
+      <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="text-center md:text-left">
+          <h3 class="text-white font-bold text-lg mb-1">Investasi Aman</h3>
+          <p class="text-slate-300 text-sm">Terdaftar &amp; diawasi otoritas</p>
+        </div>
+        <div class="text-center md:text-left">
+          <h3 class="text-white font-bold text-lg mb-1">Pertumbuhan Stabil</h3>
+          <p class="text-slate-300 text-sm">Dividen kompetitif tiap tahun</p>
+        </div>
+        <div class="text-center md:text-left">
+          <h3 class="text-white font-bold text-lg mb-1">Skema Fleksibel</h3>
+          <p class="text-slate-300 text-sm">Disesuaikan kebutuhan UMKM</p>
+        </div>
+        <div class="text-center md:text-left">
+          <h3 class="text-white font-bold text-lg mb-1">Akses Digital</h3>
+          <p class="text-slate-300 text-sm">Transaksi 24/7 via Aplikasi</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="py-10 lg:py-28 bg-surface-light dark:bg-background-dark" id="tentang">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          
+          <!-- Left image -->
+          <div class="relative">
+            <div class="absolute -top-4 -left-4 w-24 h-24 bg-secondary rounded-tl-3xl z-0"></div>
+            <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-primary rounded-br-3xl z-0"></div>
+            <img alt="Meeting at Cooperative" class="relative z-10 rounded-2xl shadow-2xl w-full object-cover h-[500px]"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxXY_CmgtqhmB_xMvmxmaoVJsZcFLDfMOi-6MlPQxcRfZMpVHF3FA9fYBbXXscDRHD3nbFQl12wFME915yd2Dx1Kcctu6hfbVOkL3RYyT_87d1Z1789CklnFo6NgtlxmOpoyW3HEEIidrinNV2fGsksyu0fYoGh7ZOEwzsowOBL2sSs4Sz4P7Ka0QrlOCeHbizUkjkamVtqCW8mAwd2Ac8jjmcYTeGUk9fxZPzCvs5yt_0Y81uW4axrz0oUM1L3pBYNJJkN7GCdf8">
+            <div class="absolute bottom-10 -right-10 z-20 bg-accent text-white p-6 rounded-xl shadow-xl max-w-[200px] hidden md:block">
+              <div class="flex items-center gap-2 mb-2">
+                <img alt="User" class="w-10 h-10 rounded-full border-2 border-white"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0yS7_nEH0REM7PgNw-324GcWVdH8gHMfgLgXn-Le4Iz5VLnXhgRqoXlQFcTgpKLf-L6u-CYBhhifu0oslfClHSBAZYMOQiL0bu6VENL1OQrPghSobRPKtLrNdpCHuwfK_0_Z-uJ6vdepUjrJorSJvjiMj1vqmqAXnycXjKbzS0ztVP5MsnbmRPZSKJ7hPzKE2DTO4zmMGcRnzcitj2dPLkdLhCDJY0HNDk66tY9UdDPPr96JqMGUr-U919wd6POy-ycrUzf8cCns">
+                <div>
+                  <p class="text-xs opacity-80">Anggota Aktif</p>
+                  <p class="font-bold">Siti Aminah</p>
+                </div>
+              </div>
+              <p class="text-sm font-medium">"Sangat membantu usaha saya berkembang!"</p>
+            </div>
+          </div>
+
+          <!-- Right content -->
+          <div>
+            <span class="text-primary font-bold tracking-wider uppercase text-sm mb-2 block">Tentang Koperasi Kami</span>
+            <h2 class="text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white mb-6 leading-tight">
+              Kami menawarkan segala jenis solusi <span class="text-primary">pembayaran online</span> untuk Anda
+            </h2>
+            <p class="text-slate-600 dark:text-slate-300 text-lg mb-6 leading-relaxed">
+              Koperasi Maju adalah solusi finansial yang bekerja sebagai akun digital, untuk manajemen finansial, dan
+              investasi, ditujukan untuk edukasi komersial dan promosi UMKM lokal.
+            </p>
+
+            <!-- Feature list -->
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-center gap-3">
+                <span class="bg-green-100 text-green-600 p-1 rounded-full">
+                  <!-- Heroicon: Check -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
+                <span class="text-slate-700 dark:text-slate-300 font-medium">Proses pendaftaran cepat &amp; mudah</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="bg-green-100 text-green-600 p-1 rounded-full">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
+                <span class="text-slate-700 dark:text-slate-300 font-medium">Transparansi dana anggota</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="bg-green-100 text-green-600 p-1 rounded-full">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                </span>
+                <span class="text-slate-700 dark:text-slate-300 font-medium">Bunga pinjaman rendah untuk UMKM</span>
+              </li>
+            </ul>
+
+            <!-- CTA -->
+            <a class="no-underline inline-flex items-center gap-2 bg-primary text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors shadow-lg shadow-blue-500/30"
+              href="#">
+              Buat Akun Koperasi
+              <!-- Heroicon: Arrow Right -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 bg-background-light dark:bg-background-dark" id="layanan">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-primary font-bold tracking-wider uppercase text-sm block mb-2">Layanan Kami</span>
+          <h2 class="text-4xl font-extrabold text-slate-900 dark:text-white mb-4">Layanan Utama Untuk Anggota</h2>
+          <p class="text-slate-600 dark:text-slate-400">
+            Kami menyediakan berbagai layanan finansial untuk mendukung pertumbuhan ekonomi anggota dan komunitas.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Simpanan Berjangka -->
+          <div class="bg-white dark:bg-surface-dark p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-100 dark:border-slate-700 group hover:-translate-y-2">
+            <div class="w-14 h-14 bg-blue-100 dark:bg-blue-900/30 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+              <!-- Heroicon: Bank -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M4 6l8-4 8 4M4 10v10h16V10" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Simpanan Berjangka</h3>
+            <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-4">
+              Simpan dana Anda dengan aman dan nikmati bagi hasil yang kompetitif untuk masa depan.
+            </p>
+          </div>
+
+          <!-- Modal Usaha -->
+          <div class="bg-white dark:bg-surface-dark p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-100 dark:border-slate-700 group hover:-translate-y-2">
+            <div class="w-14 h-14 bg-purple-100 dark:bg-purple-900/30 rounded-xl flex items-center justify-center text-purple-600 mb-6 group-hover:bg-purple-600 group-hover:text-white transition-colors">
+              <!-- Heroicon: Trending Up -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 17l6-6 4 4 8-8" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Modal Usaha</h3>
+            <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-4">
+              Akses permodalan mudah untuk pengembangan bisnis UMKM Anda dengan bunga ringan.
+            </p>
+          </div>
+
+          <!-- Manajemen Aset -->
+          <div class="bg-white dark:bg-surface-dark p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-100 dark:border-slate-700 group hover:-translate-y-2">
+            <div class="w-14 h-14 bg-yellow-100 dark:bg-yellow-900/30 rounded-xl flex items-center justify-center text-yellow-600 mb-6 group-hover:bg-yellow-500 group-hover:text-white transition-colors">
+              <!-- Heroicon: Shield Check -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2l4-4m1.5-6.5l-7.5 3-7.5-3v13l7.5 3 7.5-3v-13z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Manajemen Aset</h3>
+            <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-4">
+              Pengelolaan aset koperasi yang transparan dan amanah untuk kesejahteraan bersama.
+            </p>
+          </div>
+
+          <!-- Kemitraan & Bisnis -->
+          <div class="bg-white dark:bg-surface-dark p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-100 dark:border-slate-700 group hover:-translate-y-2">
+            <div class="w-14 h-14 bg-green-100 dark:bg-green-900/30 rounded-xl flex items-center justify-center text-green-600 mb-6 group-hover:bg-green-600 group-hover:text-white transition-colors">
+              <!-- Heroicon: Handshake (Users) -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4H5l7 7 7-7h-3z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Kemitraan &amp; Bisnis</h3>
+            <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-4">
+              Jaringan kerjasama bisnis antar anggota untuk memperluas pasar produk Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 px-4">
+      <div
+        class="max-w-7xl mx-auto rounded-3xl bg-gradient-to-r from-primary to-accent relative overflow-hidden shadow-2xl">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-16 -mt-16 blur-2xl"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-white/10 rounded-full -ml-16 -mb-16 blur-2xl"></div>
+        <div class="relative z-10 grid md:grid-cols-2 items-center p-10 md:p-16">
+          <div class="text-center md:text-left">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
+              Koperasi Cocok Untuk Semua <br> Jenis Transaksi
+            </h2>
+            <p class="text-blue-100 mb-8 max-w-md mx-auto md:mx-0">
+              Bergabunglah dengan ribuan anggota lainnya yang telah merasakan manfaat dari Koperasi Maju.
+            </p>
+            <!-- CTA -->
+            <a class="no-underline inline-flex items-center gap-2 bg-secondary text-slate-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-400 transition-colors shadow-lg transform hover:scale-105"
+              href="#">
+              Gabung Koperasi
+              <!-- Heroicon: Arrow Right -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-slate-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Right card -->
+          <div class="hidden md:flex justify-end relative">
+            <div
+              class="bg-white/20 backdrop-blur-md p-6 rounded-2xl transform rotate-6 border border-white/30 max-w-xs text-white">
+              <div class="flex items-center gap-4 mb-4">
+                <div
+                  class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-slate-900 font-bold">$
+                </div>
+                <div>
+                  <div class="h-2 w-24 bg-white/50 rounded mb-1"></div>
+                  <div class="h-2 w-16 bg-white/30 rounded"></div>
+                </div>
+              </div>
+              <div class="h-20 bg-white/10 rounded-lg mb-2"></div>
+              <div class="flex justify-between text-xs text-blue-100">
+                <span>Income</span>
+                <span>+24%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 bg-background-light dark:bg-background-dark">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <div class="order-2 lg:order-1">
+            <span class="text-primary font-bold tracking-wider uppercase text-sm mb-2 block">Area Kami</span>
+            <h2 class="text-4xl font-extrabold text-slate-900 dark:text-white mb-6">
+              Kami Lokal Namun Berjangkauan Global
+            </h2>
+            <p class="text-slate-600 dark:text-slate-300 mb-6 text-lg">
+              Akun Koperasi Speedy kami memungkinkan Anda menerima pembayaran dimanapun pelanggan Anda berada dan metode
+              pembayaran apapun yang mereka gunakan.
+            </p>
+            <p class="text-slate-500 dark:text-slate-400 italic mb-8 border-l-4 border-secondary pl-4">
+              Kami mengadopsi pendekatan "Glocalization" - Berpikir global, bertindak lokal.
+            </p>
+            <button
+              class="bg-primary hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-colors flex items-center gap-2">
+              Lihat Semua Cabang
+              <!-- Heroicon: Globe -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 0v20m0-20C9.5 7 9.5 17 12 22m0-20c2.5 5 2.5 15 0 20" />
+              </svg>
+            </button>
+          </div>
+          <div class="order-1 lg:order-2 flex justify-center relative">
+            <div
+              class="relative w-full max-w-md aspect-square rounded-full bg-gradient-to-tr from-blue-900 to-slate-900 flex items-center justify-center overflow-hidden shadow-2xl border-4 border-slate-200 dark:border-slate-700">
+              <img alt="Globe" class="opacity-60 absolute inset-0 w-full h-full object-cover"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2dQGGSoBZX-9-F-JZPXR-0AYhGqTE8QAcATY24POdQZDXRzGo4iSYJwqXclzkZF9XC8P-pgERJ_kNuwLlsffj2nz4x-kIYE1wx-FCTrkdIGiXlE9aN43Lby_Q9oKVJsnevLBHEn06gaOQOiqOujxb4iRK7kwMxXNwwIXjO5hQ-R_PCwaBRyWCxTzeGwP3pX_mz4s71T-I7EndjMNssfHLERLSV7cLbaDW68t7Rf2j7-eCksP0r8AXAQaY-cbi-8-CK5DfRDE0UfY">
+              
+              <!-- Bubble 1 -->
+              <div
+                class="absolute top-1/4 left-10 bg-secondary text-slate-900 px-4 py-2 rounded-lg text-sm font-bold shadow-lg animate-bounce flex items-center gap-2 z-10">
+                <!-- Heroicon: Check Circle -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-slate-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 12l2 2l4-4m6 2a9 9 0 11-18 0a9 9 0 0118 0z" />
+                </svg>
+                Halo! Pembayaran Diterima!
+              </div>
+
+              <!-- Bubble 2 -->
+              <div
+                class="absolute bottom-1/4 right-10 bg-white text-slate-900 px-4 py-2 rounded-lg text-sm font-bold shadow-lg flex items-center gap-2 z-10">
+                <!-- Heroicon: Trending Up -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 17l6-6 4 4 8-8" />
+                </svg>
+                Investasi Tumbuh
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tombol navigasi testimonial -->
+    <div class="flex justify-center gap-4 mt-8">
+      <!-- Arrow Back -->
+      <button class="bg-primary text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+      <!-- Arrow Forward -->
+      <button class="bg-primary text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Testimonial Section -->
+    <section class="py-10 bg-background-light dark:bg-background-dark">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-extrabold mb-12" style="color:#ff8503;">
+          Testimoni Anggota
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Testimonial 1 -->
+          <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-lg">
+            <p class="text-slate-600 dark:text-slate-300 mb-4">
+              “Koperasi Maju benar-benar membantu usaha saya berkembang dengan modal yang fleksibel.”
+            </p>
+            <!-- Stars -->
+            <div class="flex justify-center text-yellow-400 mb-2">
+              <!-- 5 stars -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.966h4.174c.969 0 1.371 1.24.588 1.81l-3.38 2.455 1.287 3.966c.3.921-.755 1.688-1.54 1.118L10 13.347l-3.366 2.895c-.785.57-1.84-.197-1.54-1.118l1.287-3.966-3.38-2.455c-.783-.57-.381-1.81.588-1.81h4.174l1.286-3.966z"/></svg>
+              <!-- ulangi 5x -->
+            </div>
+            <p class="font-bold text-slate-900 dark:text-white">Budi Santoso</p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-lg">
+            <p class="text-slate-600 dark:text-slate-300 mb-4">
+              “Transparansi dana anggota membuat saya merasa aman dan percaya penuh.”
+            </p>
+            <!-- Stars -->
+            <div class="flex justify-center text-yellow-400 mb-2">
+              <!-- 5 stars -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.966h4.174c.969 0 1.371 1.24.588 1.81l-3.38 2.455 1.287 3.966c.3.921-.755 1.688-1.54 1.118L10 13.347l-3.366 2.895c-.785.57-1.84-.197-1.54-1.118l1.287-3.966-3.38-2.455c-.783-.57-.381-1.81.588-1.81h4.174l1.286-3.966z"/></svg>
+              <!-- ulangi 5x -->
+            </div>
+            <p class="font-bold text-slate-900 dark:text-white">Rina Wijaya</p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-lg">
+            <p class="text-slate-600 dark:text-slate-300 mb-4">
+              “Bunga pinjaman rendah sangat membantu saya mengembangkan usaha kecil.”
+            </p>
+            <!-- Stars -->
+            <div class="flex justify-center text-yellow-400 mb-2">
+              <!-- 4.5 stars -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.966h4.174c.969 0 1.371 1.24.588 1.81l-3.38 2.455 1.287 3.966c.3.921-.755 1.688-1.54 1.118L10 13.347l-3.366 2.895c-.785.57-1.84-.197-1.54-1.118l1.287-3.966-3.38-2.455c-.783-.57-.381-1.81.588-1.81h4.174l1.286-3.966z"/></svg>
+              <!-- ulangi 4x -->
+              <!-- Half star -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-3.5 2.1 1-4.1-3.2-2.5 4.2-.3L10 7l1.5 3.2 4.2.3-3.2 2.5 1 4.1z"/></svg>
+            </div>
+            <p class="font-bold text-slate-900 dark:text-white">Andi Pratama</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 bg-background-light dark:bg-background-dark">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div class="relative flex justify-center">
+            <div class="absolute inset-0 bg-primary/10 rounded-full filter blur-3xl transform scale-75"></div>
+            <img alt="Mobile App"
+              class="relative z-10 w-3/4 max-w-md drop-shadow-2xl rounded-3xl border-8 border-slate-900"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcpekGa2LvHoYmOP0mW9b9fkoS7E2u7-MMn-Z_rGMH7uhhltt0vy-OtJFvd_kpuiYGVCQTqo-MVjs8dN9LeZ21kYLrRd29QDgijWJeeYtIekgQDJvSTop1izWcHS4RO4gtWKMcM_GhZ-bFZe_xIHFe8drgk5460xlu5vgtG6ZqaOjCayeuV_vh6F7wZE-NMNAD9QP4PPRZY_lM7o5z1_p8B50GDRibvrm9iCttWDlWmOl4P3QJv-gywvqljv3xVT_-P_X3leNYTeU">
+          </div>
+          <div>
+            <span class="text-primary font-bold tracking-wider uppercase text-sm mb-2 block">Download App</span>
+            <h2 class="text-4xl font-extrabold text-slate-900 dark:text-white mb-6">
+              Download aplikasi mobile kami hari ini
+            </h2>
+            <p class="text-slate-600 dark:text-slate-300 mb-8">
+              Koperasi Maju memberdayakan pengguna untuk menjalankan rekening bank mereka tanpa terikat aturan bank
+              konvensional. Kirim dan terima uang dengan cepat dan mudah.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <button
+                class="flex items-center bg-slate-900 text-white px-6 py-3 rounded-xl hover:bg-slate-800 transition-colors shadow-lg">
+                <span class="material-icons text-3xl mr-3">android</span>
+                <div class="text-left">
+                  <div class="text-xs uppercase">Get it on</div>
+                  <div class="text-lg font-bold font-sans">Google Play</div>
+                </div>
+              </button>
+              <button
+                class="flex items-center bg-accent text-white px-6 py-3 rounded-xl hover:bg-purple-800 transition-colors shadow-lg">
+                <span class="material-icons text-3xl mr-3">apple</span>
+                <div class="text-left">
+                  <div class="text-xs uppercase">Get it on</div>
+                  <div class="text-lg font-bold font-sans">App Store</div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative py-24 bg-accent overflow-hidden" id="kontak">
+      <div
+        class="absolute top-0 left-0 h-full w-full flex flex-col justify-between pointer-events-none select-none overflow-hidden">
+        <div
+          class="text-[10rem] md:text-[15rem] leading-none font-black text-outline opacity-10 whitespace-nowrap -ml-20">
+          Message Us. Contact Us.</div>
+        <div
+          class="text-[10rem] md:text-[15rem] leading-none font-black text-outline opacity-10 whitespace-nowrap -ml-40">
+          Message Us. Contact Us.</div>
+        <div
+          class="text-[10rem] md:text-[15rem] leading-none font-black text-outline opacity-10 whitespace-nowrap -ml-10">
+          Message Us. Contact Us.</div>
+      </div>
+      <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-12">
+          <div class="md:col-span-1">
+            <span
+              class="text-white/80 font-bold tracking-wider uppercase text-xs mb-2 block [writing-mode:vertical-lr] h-full rotate-180 border-l border-white/20 pl-4 py-4 hidden md:block">Contact
+              Us</span>
+            <h2 class="text-3xl font-extrabold text-white mb-6 md:hidden">Hubungi Kami</h2>
+          </div>
+          <div class="md:col-span-2">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-8 leading-tight">
+              Silakan isi formulir di bawah &amp; kami akan menghubungi Anda sesegera mungkin
+            </h2>
+            <form class="space-y-6">
+              <div>
+                <label class="block text-white/70 text-sm mb-2">Nama Lengkap</label>
+                <input
+                  class="w-full bg-transparent border-b border-white/30 text-white focus:border-secondary focus:ring-0 px-0 py-2 placeholder-white/20 transition-colors"
+                  placeholder="Masukkan nama anda" type="text">
+              </div>
+              <div>
+                <label class="block text-white/70 text-sm mb-2">Email</label>
+                <input
+                  class="w-full bg-transparent border-b border-white/30 text-white focus:border-secondary focus:ring-0 px-0 py-2 placeholder-white/20 transition-colors"
+                  placeholder="email@contoh.com" type="email">
+              </div>
+              <div class="grid grid-cols-2 gap-6">
+                <div>
+                  <label class="block text-white/70 text-sm mb-2">Subjek</label>
+                  <input
+                    class="w-full bg-transparent border-b border-white/30 text-white focus:border-secondary focus:ring-0 px-0 py-2 placeholder-white/20 transition-colors"
+                    type="text">
+                </div>
+                <div>
+                  <label class="block text-white/70 text-sm mb-2">No. Telp</label>
+                  <input
+                    class="w-full bg-transparent border-b border-white/30 text-white focus:border-secondary focus:ring-0 px-0 py-2 placeholder-white/20 transition-colors"
+                    type="tel">
+                </div>
+              </div>
+              <div>
+                <label class="block text-white/70 text-sm mb-2">Pesan Anda</label>
+                <textarea
+                  class="w-full bg-transparent border-b border-white/30 text-white focus:border-secondary focus:ring-0 px-0 py-2 placeholder-white/20 transition-colors"
+                  rows="3"></textarea>
+              </div>
+              <div class="pt-4">
+                <button
+                  class="bg-secondary text-slate-900 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-yellow-400 transition-all flex items-center gap-2"
+                  type="button">
+                  Kirim Pesan
+                  <span class="material-icons text-sm">send</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 bg-background-light dark:bg-background-dark" id="blog">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-end mb-12">
+          <div>
+            <span class="text-primary font-bold tracking-wider uppercase text-sm mb-2 block">Blog</span>
+            <h2 class="text-4xl font-extrabold text-slate-900 dark:text-white max-w-lg">
+              Baca Berita Teknologi &amp; Keuangan Terbaru
+            </h2>
+          </div>
+          <div class="flex gap-2">
+            <span class="w-3 h-3 rounded-full bg-primary"></span>
+            <span class="w-3 h-3 rounded-full bg-slate-300 dark:bg-slate-700"></span>
+            <span class="w-3 h-3 rounded-full bg-slate-300 dark:bg-slate-700"></span>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Blog 1 -->
+          <div class="group cursor-pointer">
+            <div class="relative overflow-hidden rounded-2xl mb-4 aspect-[4/3]">
+              <img alt="Blog 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr_Em_U4WosxDy5HP33gebyc7FY-LDavBmuRRLtC20xGsvO_-13ZLKvOt7MKqFAeQOLYoJWCgkETGoxEDVRPwOWynHW2o-Pz7Ew-yqWbRlqAStCeolq1LKldXGnpGgxkrd3zS5quu_z5ZzJK9YtoESGhCxxmijqaqlL77r1YpiMVA0Qn2UubDVVd1f8MI5ulcTuEVYFkTAaSp-hPRNMkbBcDZNLfTxJL0WUY011S3ZtcrY4tF4K6qSnHJXcEBAJznUXhjdXt9hf-Y">
+            </div>
+            <span class="text-primary text-xs font-bold block mb-2">1 Januari 2023</span>
+            <h3
+              class="text-slate-900 dark:text-white font-bold text-xl leading-tight mb-2 group-hover:text-primary transition-colors">
+              Koperasi Maju Menyelesaikan Penempatan Obligasi
+            </h3>
+            <p class="text-slate-500 text-sm line-clamp-2">
+              Koperasi Maju berhasil menyelesaikan penempatan obligasi untuk mendukung ekspansi usaha anggota.
+            </p>
+          </div>
+
+          <!-- Blog 2 -->
+          <div class="group cursor-pointer">
+            <div class="relative overflow-hidden rounded-2xl mb-4 aspect-[4/3]">
+              <img alt="Blog 2" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqZw2BAuBxNDDISTSGRy0zUYBoPcVZtZX9_dPWVaWcJg5oQxlPhCwi9l5MEa4nz2N0mXMdoM6QeTJEfCz26rdQIqTpHEB2amENFzLDFndSBMCsbRoCUrIn-1RgL3ieD3Xq4Zg4kIBSjjoF01WpJ1o7IATz6ZYNIVmXb1AMwUu3vwW5_TY_9JOrhibx04NXakeyKWLXG6vQ7Hnehfq0EM2o3XbIa0azGYf2kK1SfjNS8DA3t5RUDhqUDqQB614VYTR-wdaxwY7vPWw">
+            </div>
+            <span class="text-primary text-xs font-bold block mb-2">5 Januari 2023</span>
+            <h3
+              class="text-slate-900 dark:text-white font-bold text-xl leading-tight mb-2 group-hover:text-primary transition-colors">
+              Cara Mendapatkan Kartu Visa Koperasi Terbaik Anda
+            </h3>
+            <p class="text-slate-500 text-sm line-clamp-2">
+              Pelajari cara mudah mengajukan kartu debit visa yang terhubung dengan akun koperasi Anda.
+            </p>
+          </div>
+
+          <!-- Blog 3 -->
+          <div class="group cursor-pointer">
+            <div class="relative overflow-hidden rounded-2xl mb-4 aspect-[4/3]">
+              <img alt="Blog 3" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4lXwSuA2Y1CFnVGgWUZX93Md0UB-WhvuowY3UeGPRsPEJumMMMo9onYNKyQ9uz05mJ92sCsgvlCrqdyFysJh0J62GTgXQcmudlT7L8DpfxemlY3tvdBgjWZfJ69DBZdJVKpRjYV9Wq97FpTIfFWEjinTxFgEWXIgruq7tIkFGM_1lwxhac32UJra5M7wYQC_HJMZikd4Q-ndVqhxwNTi7Nm_MZiSd1YtWpyzHl8TrYTV4MfQHxPXOAbPKdLEsLdCu97NxH8D1NfA">
+            </div>
+            <span class="text-primary text-xs font-bold block mb-2">8 Januari 2023</span>
+            <h3
+              class="text-slate-900 dark:text-white font-bold text-xl leading-tight mb-2 group-hover:text-primary transition-colors">
+              Kerjasama Baru Kami Dengan Think-Off Products
+            </h3>
+            <p class="text-slate-500 text-sm line-clamp-2">
+              Koperasi Maju memberdayakan usaha Anda dengan rekening bank tanpa batas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[#4a1a7a] border-t border-slate-800 text-slate-300 py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Top grid -->
+        <div class="grid md:grid-cols-4 gap-12 mb-12">
+          
+          <!-- Brand -->
+          <div>
+            <h3 class="text-2xl font-bold text-white mb-6">
+              Koperasi<span style="color:#ff8503;">Maju</span>
+            </h3>
+            <div class="flex flex-col space-y-3 text-sm">
+              <a href="#" class="text-white no-underline hover:text-orange-400 transition-colors">Tentang Kami</a>
+              <a href="#" class="text-white no-underline hover:text-orange-400 transition-colors">FAQ</a>
+              <a href="#" class="text-white no-underline hover:text-orange-400 transition-colors">Hubungi Kami</a>
+            </div>
+          </div>
+
+          <!-- Produk -->
+          <div>
+            <h4 class="text-white font-bold mb-6">Produk</h4>
+            <div class="flex flex-col space-y-3 text-sm">
+              <a href="#" class="text-white no-underline hover:text-orange-400 transition-colors">Bandingkan Harga</a>
+              <a href="#" class="text-white no-underline hover:text-orange-400 transition-colors">Testimonial</a>
+              <a href="#" class="text-white no-underline hover:text-orange-400 transition-colors">Fitur</a>
+            </div>
+          </div>
+
+          <!-- Tautan Penting -->
+          <div>
+            <h4 class="text-white font-bold mb-6">Tautan Penting</h4>
+            <div class="flex flex-col space-y-3 text-sm">
+              <a href="#" class="text-white no-underline hover:text-orange-400 transition-colors">Blog</a>
+              <a href="#" class="text-white no-underline hover:text-orange-400 transition-colors">Transfer Uang</a>
+              <a href="#" class="text-white no-underline hover:text-orange-400 transition-colors">Layanan</a>
+            </div>
+          </div>
+
+          <!-- Hubungi Kami -->
+          <div>
+            <h4 class="text-white font-bold mb-6">Hubungi Kami</h4>
+            <div class="flex flex-col space-y-4 text-sm">
+              <div class="flex gap-3">
+                <span class="font-bold" style="color:#ff8503;">PHONE:</span>
+                <span>(021) 895-9800</span>
+              </div>
+              <div class="flex gap-3">
+                <span class="font-bold" style="color:#ff8503;">EMAIL:</span>
+                <span>info@koperasimaju.com</span>
+              </div>
+              <div class="flex gap-3">
+                <span class="font-bold" style="color:#ff8503;">ALAMAT:</span>
+                <span>Jl. Sudirman No. 28, Jakarta Selatan, Indonesia</span>
+              </div>
+            </div>
+
+            <!-- Social icons -->
+            <div class="mt-6 flex gap-4">
+              <a href="#" class="text-white no-underline hover:text-orange-400">
+                <!-- Heroicon: Facebook-like (square) -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M4 3h16a1 1 0 011 1v16a1 1 0 01-1 1h-6.5v-6.8h2.3l.4-2.7h-2.7v-1.7c0-.8.2-1.3 1.4-1.3h1.3V6.2c-.2 0-.9-.1-1.8-.1-1.8 0-3 1.1-3 3.1v1.8H9.9l-.4 2.7h2.3V21H4a1 1 0 01-1-1V4a1 1 0 011-1z"/>
+                </svg>
+              </a>
+              <a href="#" class="text-white no-underline hover:text-orange-400">
+                <!-- Heroicon: X/Twitter-like -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M4 4h3.6l5 6.9L17.3 4H20l-6.2 8.5L20 20h-3.6l-5.3-7.3L6.7 20H4l6.3-8.6L4 4z"/>
+                </svg>
+              </a>
+              <a href="#" class="text-white no-underline hover:text-orange-400">
+                <!-- Heroicon: Camera (Instagram-like) -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M7 3h10a4 4 0 014 4v10a4 4 0 01-4 4H7a4 4 0 01-4-4V7a4 4 0 014-4zm10 2H7a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2zm-5 3a5 5 0 110 10 5 5 0 010-10zm6-2a1.5 1.5 0 110 3 1.5 1.5 0 010-3z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="border-t border-slate-800 pt-12 flex flex-col md:flex-row justify-between items-center gap-6">
+          <div>
+            <h4 class="text-white font-bold mb-2">Berlangganan Newsletter Kami</h4>
+            <p class="text-xs text-slate-300">Dapatkan info terbaru langsung di inbox Anda.</p>
+          </div>
+          <form class="flex w-full md:w-auto max-w-md bg-slate-700 rounded-lg p-1">
+            <input type="email" placeholder="Alamat email anda"
+                  class="bg-transparent border-none text-white focus:ring-0 w-full px-4 text-sm">
+            <button type="button"
+                    class="bg-[#ff8503] hover:bg-orange-500 text-white px-6 py-2 rounded text-sm font-bold flex items-center gap-2">
+              Subscribe
+              <!-- Heroicon: Paper Airplane -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M12 19l9-7-9-7-9 7 9 7zm0-7l9-7M3 12l9 7" />
+              </svg>
+            </button>
+          </form>
+        </div>
+
+        <!-- Bottom -->
+        <div class="border-t border-slate-800 mt-12 pt-8 text-center text-xs text-slate-300">
+          © 2023 Koperasi Maju Bersama. All Rights Reserved. <br>
+          <a href="https://tekosulaiman.site" target="_blank" class="text-white underline">
+            Desain oleh tekosulaiman.site
+          </a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
