@@ -44,6 +44,7 @@
 .container{max-width:1536px;}
 }
 /* layer: default */
+.pointer-events-none{pointer-events:none;}
 .absolute{position:absolute;}
 .fixed{position:fixed;}
 .relative{position:relative;}
@@ -124,6 +125,7 @@
 .transform{transform:translateX(var(--un-translate-x)) translateY(var(--un-translate-y)) translateZ(var(--un-translate-z)) rotate(var(--un-rotate)) rotateX(var(--un-rotate-x)) rotateY(var(--un-rotate-y)) rotateZ(var(--un-rotate-z)) skewX(var(--un-skew-x)) skewY(var(--un-skew-y)) scaleX(var(--un-scale-x)) scaleY(var(--un-scale-y)) scaleZ(var(--un-scale-z));}
 @keyframes pulse{0%, 100% {opacity:1} 50% {opacity:.5}}
 .animate-pulse{animation:pulse 2s cubic-bezier(0.4,0,.6,1) infinite;}
+.cursor-not-allowed{cursor:not-allowed;}
 .list-disc{list-style-type:disc;}
 .list-inside{list-style-position:inside;}
 .items-center{align-items:center;}
@@ -261,6 +263,7 @@
 .text-green-400{--un-text-opacity:1;color:rgb(74 222 128 / var(--un-text-opacity)) /* #4ade80 */;}
 .text-green-600{--un-text-opacity:1;color:rgb(22 163 74 / var(--un-text-opacity)) /* #16a34a */;}
 .text-indigo-600{--un-text-opacity:1;color:rgb(79 70 229 / var(--un-text-opacity)) /* #4f46e5 */;}
+.text-pink-300{--un-text-opacity:1;color:rgb(249 168 212 / var(--un-text-opacity)) /* #f9a8d4 */;}
 .text-primary{--un-text-opacity:1;color:rgb(37 99 235 / var(--un-text-opacity)) /* #2563EB */;}
 .text-purple-600{--un-text-opacity:1;color:rgb(147 51 234 / var(--un-text-opacity)) /* #9333ea */;}
 .text-red-600{--un-text-opacity:1;color:rgb(220 38 38 / var(--un-text-opacity)) /* #dc2626 */;}
@@ -295,6 +298,7 @@
 .no-underline{text-decoration:none;}
 .antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
 .opacity-0{opacity:0;}
+.opacity-50{opacity:0.5;}
 .shadow{--un-shadow:var(--un-shadow-inset) 0 1px 3px 0 var(--un-shadow-color, rgb(0 0 0 / 0.1)),var(--un-shadow-inset) 0 1px 2px -1px var(--un-shadow-color, rgb(0 0 0 / 0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}
 .shadow-2xl{--un-shadow:var(--un-shadow-inset) 0 25px 50px -12px var(--un-shadow-color, rgb(0 0 0 / 0.25));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}
 .shadow-blue-500\/30{--un-shadow-color:rgb(59 130 246 / 0.3) /* #3b82f6 */;}
