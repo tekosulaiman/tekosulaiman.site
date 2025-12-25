@@ -15,13 +15,52 @@
     </button>
 
     <!-- Desktop Nav -->
-    <nav id="desktop-nav" class="hidden lg:flex space-x-8 items-center font-medium">
+    <!-- nav id="desktop-nav" class="hidden lg:flex space-x-8 items-center font-medium">
       <a href="{{ SITEURL }}/management/" class="text-white no-underline hover:text-secondary transition-colors">Management</a>
       <a href="{{ SITEURL }}/analysis/" class="text-white no-underline hover:text-secondary transition-colors">Analysis</a>
       <a href="{{ SITEURL }}/documentation/" class="text-white no-underline hover:text-secondary transition-colors">Documentation</a>
       <a href="{{ SITEURL }}/technical/" class="text-white no-underline hover:text-secondary transition-colors">Technical</a>
       <a href="{{ SITEURL }}/about/" class="text-white no-underline hover:text-secondary transition-colors">About</a>
       <a href="{{ SITEURL }}/resume/" class="text-white no-underline hover:text-secondary transition-colors">Resume</a>
+    </nav -->
+
+    <!-- Desktop Nav -->
+    <nav id="desktop-nav" class="hidden lg:flex items-center space-x-6 font-medium">
+      <!-- Portfolio parent -->
+      <div class="relative group">
+        <span class="text-white cursor-default">Portfolio</span>
+        <ul class="absolute invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all bg-[#FFA91B] border-2 border-[#F7C833] rounded-md mt-2 shadow-md z-50">
+          <li><a href="{{ SITEURL }}/management/" class="block px-4 py-2 text-[#2375D8] no-underline hover:text-white hover:bg-[#EC4138]">Management</a></li>
+          <li><a href="{{ SITEURL }}/analysis/" class="block px-4 py-2 text-[#2375D8] no-underline hover:text-white hover:bg-[#EC4138]">Analysis</a></li>
+          <li><a href="{{ SITEURL }}/documentation/" class="block px-4 py-2 text-[#2375D8] no-underline hover:text-white hover:bg-[#EC4138]">Documentation</a></li>
+          <li><a href="{{ SITEURL }}/technical/" class="block px-4 py-2 text-[#2375D8] no-underline hover:text-white hover:bg-[#EC4138]">Technical</a></li>
+        </ul>
+      </div>
+
+      <!-- About Me parent -->
+      <div class="relative group">
+        <span class="text-white cursor-default">About</span>
+        <ul class="absolute invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all
+                  bg-[#FFA91B] border-2 border-[#F7C833] rounded-md mt-2 shadow-md z-50 w-48">
+          <li>
+            <a href="{{ SITEURL }}/about/"
+              class="block px-4 py-2 text-[#2375D8] no-underline hover:text-white hover:bg-[#EC4138]">
+              About Me
+            </a>
+          </li>
+          <li>
+            <a href="{{ SITEURL }}/resume/"
+              class="block px-4 py-2 text-[#2375D8] no-underline hover:text-white hover:bg-[#EC4138]">
+              My Resume
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Blog link -->
+      <a href="{{ SITEURL }}/blogit/" class="text-white no-underline transition-colors hover:text-white hover:bg-[#EC4138] px-4 py-2 rounded-md">
+        Blog
+      </a>
     </nav>
 
     <!-- CTA -->
@@ -44,6 +83,7 @@
       <a href="{{ SITEURL }}/technical/" class="py-2 text-white no-underline hover:text-secondary transition-colors">Technical</a>
       <a href="{{ SITEURL }}/about/" class="py-2 text-white no-underline hover:text-secondary transition-colors">About</a>
       <a href="{{ SITEURL }}/resume/" class="py-2 text-white no-underline hover:text-secondary transition-colors">Resume</a>
+      <a href="{{ SITEURL }}/blogit/" class="py-2 text-white no-underline hover:text-secondary transition-colors">Blog</a>
     </div>
   </div>
 

@@ -1,7 +1,7 @@
 {% extends "layouts/base.html" %}
 
 {% block pre_main %} 
-<section class="relative bg-hero-pattern w-full min-h-[100vh] pt-10 pb-10 flex flex-col items-center justify-center text-center overflow-hidden overflow-x-hidden">
+<section class="relative bg-hero-pattern w-full min-h-[60vh] pt-10 pb-10 flex flex-col items-center justify-center text-center overflow-hidden overflow-x-hidden">
   <!-- Blob dekorasi aman -->
   <div class="absolute top-20 inset-x-0 flex justify-center">
     <div class="w-40 h-40 md:w-64 md:h-64 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
@@ -201,4 +201,25 @@
     </div>
   </div>
 </section>
+
+<!-- Section : Random Posts -->
+<section id="all-posts" class="content-section">
+  <div class="container">
+    <h2>Random Article Posts</h2>
+    {% for article in articles[:5] %}
+      <article class="post-card">
+        <h3>
+          <a href="{{ SITEURL }}/{{ article.url }}">
+            {{ article.title }}
+          </a>
+        </h3>
+        <p>{{ article.summary }}</p>
+        <a class="read-more" href="{{ SITEURL }}/{{ article.url }}">
+          Read More →
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
 {% endblock %}
